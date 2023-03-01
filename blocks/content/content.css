@@ -1,12 +1,12 @@
 .content {
   display: flex;
   flex-direction: column;
-  margin-top: 124px;
 }
-
+/*
 @media screen and (max-width: 768px) {
   .content {
-    margin-top: 96px;
+    
   }
   
 }
+*/

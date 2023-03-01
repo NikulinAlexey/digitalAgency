@@ -9,5 +9,12 @@
 
 /* Частные стили */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__link-list/header__link-list.css);
+@import url(../blocks/header/__link-item/header__link-item.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__phone/header__phone.css);
 
 @import url(../blocks/footer/footer.css);
