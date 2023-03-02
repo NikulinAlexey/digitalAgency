@@ -1,0 +1,6 @@
+.clients__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  grid-template-rows: repeat(2, 280px);
+  gap: 10px;
+}

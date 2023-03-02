@@ -6,8 +6,15 @@
 @import url(../blocks/content/content.css);
 
 @import url(../blocks/hover-element/hover-element.css);
-
-
+@import url(../blocks/typography/__heading/_type/typography__heading_type_first.css);
+@import url(../blocks/typography/__heading/_type/typography__heading_type_second.css);
+@import url(../blocks/typography/__heading/_type/typography__heading_type_third.css);
+@import url(../blocks/typography/__numbers/typography__numbers.css);
+@import url(../blocks/typography/__text/typography__text.css);
+@import url(../blocks/typography/__text/_type/typography__text_type_question-answer.css);
+@import url(../blocks/typography/__text/_type/typography__text_type_second.css);
+@import url(../blocks/typography/__text/_type/typography__text_type_button.css);
+@import url(../blocks/typography/__text/_type/typography__text_type_link.css);
 
 /* Частные стили */
 @import url(../blocks/header/header.css);
@@ -18,6 +25,13 @@
 @import url(../blocks/header/__link-item/header__link-item.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__phone/header__phone.css);
+
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/clients/__title/clients__title.css);
+@import url(../blocks/clients/__paragraph/clients__paragraph.css);
+@import url(../blocks/clients/__items/clients__items.css);
+@import url(../blocks/clients/__item-block/clients__item-block.css);
+@import url(../blocks/clients/__item/clients__item.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

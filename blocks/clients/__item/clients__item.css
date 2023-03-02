@@ -1,0 +1,9 @@
+.clients__item {
+  margin: auto;
+  opacity: .1;
+  transition: all .3s ease-in-out;
+}
+
+.clients__item:hover {
+  opacity: 1;
+}

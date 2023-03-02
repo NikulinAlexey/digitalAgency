@@ -1,0 +1,9 @@
+.clients__item-block {
+  display: flex;
+  border: 0.5px solid #BB8E5D;
+  transition: all .3s ease-in-out;
+}
+
+.clients__item-block:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.clients__paragraph {
+  position: relative;
+  margin: 0 0 50px 0;
+}
+
+.clients__paragraph:before {
+  content: '"';
+  top: -50%;
+  left: -50px;
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 120px;
+  letter-spacing: 0.05em;
+  line-height: 156px;
+}
