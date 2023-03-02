@@ -1,0 +1,6 @@
+.team__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, auto));
+  grid-template-rows: max-content;
+  gap: 40px;
+}

@@ -1,0 +1,6 @@
+.team__name {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}

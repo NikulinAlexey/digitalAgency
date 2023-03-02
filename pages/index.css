@@ -26,6 +26,15 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__phone/header__phone.css);
 
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/__paragraph/team__paragraph.css);
+@import url(../blocks/team/__items/team__items.css);
+@import url(../blocks/team/__item-block/team__item-block.css);
+@import url(../blocks/team/__image/team__image.css);
+@import url(../blocks/team/__name/team__name.css);
+@import url(../blocks/team/__job/team__job.css);
+
 @import url(../blocks/clients/clients.css);
 @import url(../blocks/clients/__title/clients__title.css);
 @import url(../blocks/clients/__paragraph/clients__paragraph.css);

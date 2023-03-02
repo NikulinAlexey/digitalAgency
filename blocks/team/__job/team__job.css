@@ -1,0 +1,6 @@
+.team__job {
+  letter-spacing: 0.05em;
+  color: #BB8E5D;
+  display: flex;
+  justify-content: center;
+}
