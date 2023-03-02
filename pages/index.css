@@ -5,6 +5,8 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 
+@import url(../blocks/hover-element/hover-element.css);
+
 
 
 /* Частные стили */
@@ -18,3 +20,22 @@
 @import url(../blocks/header/__phone/header__phone.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__upper-block/footer__upper-block.css);
+@import url(../blocks/footer/__logo-block/footer__logo-block.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__social-icon/_type/footer__social-icon_type_instagram.css);
+@import url(../blocks/footer/__social-icon/_type/footer__social-icon_type_telegram.css);
+@import url(../blocks/footer/__social-icon/_type/footer__social-icon_type_whatsapp.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contact-block/footer__contact-block.css);
+@import url(../blocks/footer/__contact-icon/footer__contact-icon.css);
+@import url(../blocks/footer/__contact-icon/_type/footer__contact-icon_type_mail.css);
+@import url(../blocks/footer/__contact-icon/_type/footer__contact-icon_type_phone.css);
+@import url(../blocks/footer/__contact-icon/_type/footer__contact-icon_type_address.css);
+@import url(../blocks/footer/__contact-name/footer__contact-name.css);
+@import url(../blocks/footer/__contact-text/footer__contact-text.css);
+@import url(../blocks/footer/__lower-block/footer__lower-block.css);
+@import url(../blocks/footer/__politics/footer__politics.css);

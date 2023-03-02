@@ -1,0 +1,11 @@
+.footer__politics {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #4D4D4D;
+  margin-right: 60px;
+}
+
+.footer__politics:last-of-type {
+  margin-right: 0;
+}

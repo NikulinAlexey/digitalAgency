@@ -5,5 +5,12 @@
   letter-spacing: 0.05em;
   color: #fff;
   text-transform: capitalize;
-  border-bottom: 1px solid #BB8E5D;
+  transition: all .5s ease-in-out;
+  padding-bottom: 4px;
 }
+
+.header__phone:hover {
+  border-bottom: 1px solid #BB8E5D;
+  cursor: pointer;
+}
+
