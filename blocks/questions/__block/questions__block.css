@@ -1,0 +1,6 @@
+.questions__block {
+  display: flex;
+  justify-content: space-between;
+  max-width: 890px;
+  margin-bottom: 168px;
+}

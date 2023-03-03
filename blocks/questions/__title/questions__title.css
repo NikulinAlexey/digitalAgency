@@ -1,0 +1,10 @@
+.questions__title {
+  color: #BB8E5D;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 130%;
+  font-family: 'Inter';
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 30px 0;
+}

@@ -1,0 +1,8 @@
+.questions__image {
+  width: 562px;
+  height: 1000px;
+  position: absolute;
+  top: 0;
+  background-size: contain;
+  z-index: -1;
+}

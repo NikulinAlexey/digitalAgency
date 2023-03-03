@@ -26,6 +26,17 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__phone/header__phone.css);
 
+@import url(../blocks/questions/questions.css);
+@import url(../blocks/questions/__container/questions__container.css);
+@import url(../blocks/questions/__image/questions__image.css);
+@import url(../blocks/questions/__image/_type/questions__image_type_left.css);
+@import url(../blocks/questions/__image/_type/questions__image_type_right.css);
+@import url(../blocks/questions/__title/questions__title.css);
+@import url(../blocks/questions/__paragraph/questions__paragraph.css);
+@import url(../blocks/questions/__block/questions__block.css);
+@import url(../blocks/questions/__subtitle/questions__subtitle.css);
+@import url(../blocks/questions/__subtitle/_type/questions__subtitle_type_dark.css);
+
 @import url(../blocks/team/team.css);
 @import url(../blocks/team/__title/team__title.css);
 @import url(../blocks/team/__paragraph/team__paragraph.css);

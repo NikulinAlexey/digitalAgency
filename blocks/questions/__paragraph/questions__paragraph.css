@@ -1,0 +1,9 @@
+.questions__paragraph {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 130%;
+  font-family: 'Zen Antique';
+  margin: 0 auto 100px auto;
+  max-width: 771px;
+  text-align: center;
+}
