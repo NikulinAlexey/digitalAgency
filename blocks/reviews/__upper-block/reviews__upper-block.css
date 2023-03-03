@@ -1,0 +1,13 @@
+.reviews__upper-block {
+  position: relative;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 20px 34px 34px 20px;
+  margin-bottom: 73px;
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0px -9px 10px -9px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px -9px 10px -9px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px -9px 10px -9px rgba(0, 0, 0, 0.9);
+}

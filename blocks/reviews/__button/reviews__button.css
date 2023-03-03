@@ -1,0 +1,14 @@
+.reviews__button {
+  background-repeat: no-repeat;
+  background-size: 10px 18px;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #BB8E5D;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.reviews__button:last-of-type {
+  margin-right: 0;
+}

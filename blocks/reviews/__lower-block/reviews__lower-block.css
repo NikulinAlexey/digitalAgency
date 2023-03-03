@@ -1,0 +1,8 @@
+.reviews__lower-block {
+  width: calc(100% - 132px);
+  height: 18px;
+  position: absolute;
+  top: -34px;
+  left: 66px;
+  background-color: #fff;
+}

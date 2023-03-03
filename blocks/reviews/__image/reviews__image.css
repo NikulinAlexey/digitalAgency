@@ -1,0 +1,6 @@
+.reviews__image {
+  object-fit: cover;
+  width: 82px;
+  height: 82px;
+  margin-right: 30px;
+}

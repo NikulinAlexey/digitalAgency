@@ -1,0 +1,11 @@
+.reviews__name {
+  font-family: 'Sitka';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  color: #2C3541;
+  margin-bottom: 4px;
+  margin-top: auto;
+}

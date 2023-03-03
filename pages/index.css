@@ -26,6 +26,25 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__phone/header__phone.css);
 
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__background/reviews__background.css);
+@import url(../blocks/reviews/__container/reviews__container.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__block/reviews__block.css);
+@import url(../blocks/reviews/__upper-block/reviews__upper-block.css);
+@import url(../blocks/reviews/__info-profile/reviews__info-profile.css);
+@import url(../blocks/reviews/__image/reviews__image.css);
+@import url(../blocks/reviews/__info/reviews__info.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
+@import url(../blocks/reviews/__location/reviews__location.css);
+@import url(../blocks/reviews/__paragraph/reviews__paragraph.css);
+@import url(../blocks/reviews/__buttons/reviews__buttons.css);
+@import url(../blocks/reviews/__button/reviews__button.css);
+@import url(../blocks/reviews/__button/_type/reviews__button_type_left.css);
+@import url(../blocks/reviews/__button/_type/reviews__button_type_right.css);
+@import url(../blocks/reviews/__mid-block/reviews__mid-block.css);
+@import url(../blocks/reviews/__lower-block/reviews__lower-block.css);
+
 @import url(../blocks/questions/questions.css);
 @import url(../blocks/questions/__container/questions__container.css);
 @import url(../blocks/questions/__image/questions__image.css);
