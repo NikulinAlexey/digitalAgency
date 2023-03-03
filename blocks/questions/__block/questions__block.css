@@ -2,5 +2,5 @@
   display: flex;
   justify-content: space-between;
   max-width: 890px;
-  margin-bottom: 168px;
+  margin: 0 auto 168px auto;
 }

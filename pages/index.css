@@ -36,6 +36,14 @@
 @import url(../blocks/questions/__block/questions__block.css);
 @import url(../blocks/questions/__subtitle/questions__subtitle.css);
 @import url(../blocks/questions/__subtitle/_type/questions__subtitle_type_dark.css);
+@import url(../blocks/questions/__list/questions__list.css);
+@import url(../blocks/questions/__list-item/questions__list-item.css);
+@import url(../blocks/questions/__list-paragraph/questions__list-paragraph.css);
+@import url(../blocks/questions/__list-paragraph/_type/questions__list-paragraph_type_active.css);
+@import url(../blocks/questions/__list-title/questions__list-title.css);
+@import url(../blocks/questions/__question/questions__question.css);
+@import url(../blocks/questions/__icon/questions__icon.css);
+@import url(../blocks/questions/__icon/_type/questions__icon_type_active.css);
 
 @import url(../blocks/team/team.css);
 @import url(../blocks/team/__title/team__title.css);
