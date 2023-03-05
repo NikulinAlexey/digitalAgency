@@ -9,11 +9,30 @@ const buttonClosePopupOrder = document.querySelector('.popup__close-icon_type_or
 
 function openPopup (popup) {
   popup.classList.add('popup_opened');
+  document.addEventListener('keydown', function(evt) {
+    if (evt.key === 'Escape') {
+      closePopup(popup);
+    }
+  }, { once: true});
 }
 
 function closePopup (popup) {
   popup.classList.remove('popup_opened');
 }
+
+function closePopupByOutsideClick (evt, popup) {
+  if (evt.target.classList.contains('popup')) {
+    closePopup(popup);
+  }
+}
+
+popupConsultation.addEventListener('click', function (evt) {
+  closePopupByOutsideClick(evt ,popupConsultation);
+});
+
+popupOrder.addEventListener('click', function (evt) {
+  closePopupByOutsideClick(evt ,popupOrder);
+});
 
 buttonConsultation.addEventListener('click', function() {
   openPopup(popupConsultation);
