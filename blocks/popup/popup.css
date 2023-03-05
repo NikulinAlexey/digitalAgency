@@ -11,4 +11,6 @@
   visibility: hidden;
   opacity: 0;
   transition: visibility .3s linear, opacity 0.3s linear;
+  z-index: 11;
+  box-sizing: border-box;
 }

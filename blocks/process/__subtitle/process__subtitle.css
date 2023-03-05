@@ -1,0 +1,11 @@
+.process__subtitle {
+  letter-spacing: 0.05em;
+  color: #BB8E5D;
+}
+
+.process__subtitle:before {
+  content: url(../../../images/subtitle-icon.png);
+  width: 19px;
+  height: 21px;
+  margin: 0 13px 0 0;
+}

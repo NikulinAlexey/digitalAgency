@@ -1,0 +1,9 @@
+.process__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, min-content);
+  row-gap: 90px;
+  grid-auto-flow: column;
+  column-gap: 125px;
+  margin-bottom: 100px;
+}

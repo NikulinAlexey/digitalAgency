@@ -27,6 +27,15 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__phone/header__phone.css);
 
+@import url(../blocks/process/process.css);
+@import url(../blocks/process/__title/process__title.css);
+@import url(../blocks/process/__accent/process__accent.css);
+@import url(../blocks/process/__items/process__items.css);
+@import url(../blocks/process/__item/process__item.css);
+@import url(../blocks/process/__subtitle/process__subtitle.css);
+@import url(../blocks/process/__button/process__button.css);
+
+
 @import url(../blocks/consultation/consultation.css);
 @import url(../blocks/consultation/__container/consultations__container.css);
 @import url(../blocks/consultation/__title/consultations__title.css);
@@ -112,14 +121,21 @@
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__container/_type/popup__container_type_consultation.css);
+@import url(../blocks/popup/__container/_type/popup__container_type_order.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__close-icon/popup__close-icon.css);
 @import url(../blocks/popup/__image-block/popup__image-block.css);
 @import url(../blocks/popup/__image/popup__image.css);
 @import url(../blocks/popup/__image/_type/popup__image_type_consultation.css);
+@import url(../blocks/popup/__image/_type/popup__image_type_order.css);
 @import url(../blocks/popup/__cursor/popup__cursor.css);
 @import url(../blocks/popup/__info/popup__info.css);
 @import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__title/_type/popup__title_type_order.css);
 @import url(../blocks/popup/__paragraph/popup__paragraph.css);
 @import url(../blocks/popup/__submit/popup__submit.css);
 @import url(../blocks/popup/__input/popup__input.css);
+@import url(../blocks/popup/__image-block/_type/popup__image-block_type_order.css);
+@import url(../blocks/popup/__form-order/popup__form-order.css);
+@import url(../blocks/popup/__image-block/_type/popup__image-block_type_order.css);
+@import url(../blocks/popup/__subparagraph/popup__subparagraph.css);

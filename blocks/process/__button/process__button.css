@@ -1,0 +1,10 @@
+.process__button {
+  border: 1px solid #BB8E5D;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+}
