@@ -1,0 +1,10 @@
+.consultations__button {
+  width: 400px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid #BB8E5D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.05em;
+}

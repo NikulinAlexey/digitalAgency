@@ -2,3 +2,7 @@
   background-image: url(../../../../images/arrow-left.png);
   transform: rotate(180deg);
 }
+
+.reviews__button_type_right:hover {
+  background-image: url(../../../../images/arrow-color-white.png);
+}

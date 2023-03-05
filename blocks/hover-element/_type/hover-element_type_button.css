@@ -1,0 +1,11 @@
+.hover-element_type_button {
+  background-color: transparent;
+  color: #BB8E5D;
+  transition: all .3s ease-in-out;
+}
+
+.hover-element_type_button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #BB8E5D;
+}

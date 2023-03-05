@@ -1,0 +1,10 @@
+.popup__title {
+  font-family: 'Playfair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  color: #BB8E5D;
+  margin: 0 0 50px 0;
+}

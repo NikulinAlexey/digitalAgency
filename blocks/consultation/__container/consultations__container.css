@@ -1,0 +1,9 @@
+.consultations__container {
+  margin: 100px 120px 100px auto;
+  box-sizing: border-box;
+  padding: 70px 60px;
+  background: rgba(0, 0, 0, 0.4);
+  max-width: 840px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}

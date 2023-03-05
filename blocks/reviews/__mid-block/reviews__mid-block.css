@@ -8,4 +8,5 @@
   -webkit-box-shadow: 0px -16px 10px -9px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0px -16px 10px -9px rgba(0, 0, 0, 0.24);
   box-shadow: 0px -16px 10px -9px rgba(0, 0, 0, 0.24);
+  z-index: 2;
 }

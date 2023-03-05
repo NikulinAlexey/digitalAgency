@@ -1,0 +1,10 @@
+.popup__cursor {
+  width: 34px;
+  height: 25px;
+  background-image: url(../../../images/cursor-icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: calc((100% - 25px) / 2);
+  right: -10px;
+}
