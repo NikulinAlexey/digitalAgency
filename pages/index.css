@@ -27,6 +27,18 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__phone/header__phone.css);
 
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__container/services__container.css);
+@import url(../blocks/services/__link/services__link.css);
+@import url(../blocks/services/__titile/services__titile.css);
+@import url(../blocks/services/__item/services__item.css);
+@import url(../blocks/services/__item/_type/services__item_type_first.css);
+@import url(../blocks/services/__item/_type/services__item_type_second.css);
+@import url(../blocks/services/__item/_type/services__item_type_third.css);
+@import url(../blocks/services/__item/_type/services__item_type_fourth.css);
+@import url(../blocks/services/__item/_type/services__item_type_fifth.css);
+@import url(../blocks/services/__item/_type/services__item_type_sixth.css);
+
 @import url(../blocks/process/process.css);
 @import url(../blocks/process/__title/process__title.css);
 @import url(../blocks/process/__accent/process__accent.css);

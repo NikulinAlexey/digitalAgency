@@ -1,0 +1,9 @@
+.services__container {
+  box-sizing: border-box;
+  width: 1680px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, min-content);
+  gap: 40px;
+}

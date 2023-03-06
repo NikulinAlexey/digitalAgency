@@ -1,0 +1,11 @@
+.services__titile {
+  font-family: 'Zen Antique';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  opacity: 0.5;
+  text-align: center;
+}

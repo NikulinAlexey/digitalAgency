@@ -1,0 +1,25 @@
+.services__item {
+  background: rgba(10, 25, 33, .8) no-repeat cover;
+  box-sizing: border-box;
+  width: 100%;
+  height: 533px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #BB8E5D;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all .3s ease-in-out;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(15px);
+  filter: blur(1px);
+}
+
+.services__item:hover {
+  -webkit-filter: blur(122px);
+  -moz-filter: blur(122px);
+  -o-filter: blur(122px);
+  -ms-filter: blur(122px);
+  filter: blur(122px);
+}
