@@ -38,6 +38,7 @@
 @import url(../blocks/services/__item/_type/services__item_type_fourth.css);
 @import url(../blocks/services/__item/_type/services__item_type_fifth.css);
 @import url(../blocks/services/__item/_type/services__item_type_sixth.css);
+@import url(../blocks/services/__mask/services__mask.css);
 
 @import url(../blocks/process/process.css);
 @import url(../blocks/process/__title/process__title.css);
