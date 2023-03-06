@@ -2,3 +2,16 @@
   max-width: 1440px;
   margin: 0 auto 100px auto;
 }
+
+@media screen and (max-width: 1830px) {
+  .clients {
+    width: 91.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clients {
+    width: calc(100% - 40px);
+    margin-top: 25px;
+  }
+}

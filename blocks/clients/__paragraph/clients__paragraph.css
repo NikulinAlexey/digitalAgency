@@ -11,3 +11,9 @@
   opacity: 1;
   color: inherit;
 }
+
+@media screen and (max-width: 768px) {
+  .clients__paragraph {
+    margin-bottom: 20px;
+  }
+}

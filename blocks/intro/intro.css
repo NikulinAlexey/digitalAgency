@@ -1,8 +1,10 @@
 .intro {
   background-image: url(../../images/intro-bg.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 900px;
+  width: 100%;
   margin-bottom: 189px;
   display: flex;
 }

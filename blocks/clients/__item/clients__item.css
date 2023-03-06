@@ -2,8 +2,15 @@
   margin: auto;
   opacity: .1;
   transition: all .3s ease-in-out;
+  width: 72%;
 }
 
 .clients__item:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .clients__item {
+    opacity: 1;
+  }
 }
