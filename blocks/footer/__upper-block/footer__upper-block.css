@@ -2,3 +2,16 @@
   display: flex;
   margin-bottom: 52px;
 }
+
+@media screen and (max-width: 1310px) {
+  .footer__upper-block {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__upper-block {
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+  }
+}

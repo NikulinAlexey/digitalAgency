@@ -10,3 +10,10 @@
 .footer__social-icon:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__social-icon {
+    width: 30px;
+    height: 30px;
+  }
+}

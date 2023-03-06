@@ -1,3 +1,24 @@
 .footer__logo-block {
   margin-right: 320px;
 }
+
+@media screen and (max-width: 1600px) {
+  .footer__logo-block {
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .footer__logo-block {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__logo-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+}
