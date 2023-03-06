@@ -1,0 +1,6 @@
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  width: 1680px;
+  margin: 100px auto 0 auto;
+}

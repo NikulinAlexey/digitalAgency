@@ -27,6 +27,12 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__phone/header__phone.css);
 
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__first-space/intro__first-space.css);
+@import url(../blocks/intro/__second-space/intro__second-space.css);
+
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__container/services__container.css);
 @import url(../blocks/services/__link/services__link.css);

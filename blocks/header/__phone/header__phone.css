@@ -7,6 +7,7 @@
   text-transform: capitalize;
   transition: all .5s ease-in-out;
   padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
 }
 
 .header__phone:hover {
