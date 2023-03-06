@@ -5,6 +5,7 @@
   background-position: center;
   height: 900px;
   width: 100%;
-  margin-bottom: 189px;
+  margin: 0 auto 189px auto;
   display: flex;
+  box-sizing: border-box;
 }
