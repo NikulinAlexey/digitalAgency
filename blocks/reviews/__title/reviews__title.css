@@ -5,8 +5,8 @@
 }
 
 .reviews__title:before {
-  content: '"';
-  top: -10px;
+  content: url(../../../images/before-content.png);
+  top: -60px;
   left: -60px;
   position: absolute;
   font-family: 'Times New Roman', Times, serif;

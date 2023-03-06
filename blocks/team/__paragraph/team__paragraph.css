@@ -5,14 +5,9 @@
 }
 
 .team__paragraph:before {
-  content: '"';
-  top: -50%;
-  left: -50px;
+  content: url(../../../images/before-content.png);
+  top: 5px;
+  left: -60px;
   position: absolute;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 400;
-  font-size: 120px;
-  letter-spacing: 0.05em;
-  line-height: 156px;
-  color: #fff;
+  opacity: 1;
 }

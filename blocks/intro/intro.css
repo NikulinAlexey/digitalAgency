@@ -1,8 +1,8 @@
 .intro {
   background-image: url(../../images/intro-bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
   height: 900px;
-  margin-bottom: 137px;
+  margin-bottom: 189px;
   display: flex;
 }
