@@ -4,3 +4,21 @@
   grid-template-rows: max-content;
   gap: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .team__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .team__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team__items {
+    gap: 10px;
+  }
+}

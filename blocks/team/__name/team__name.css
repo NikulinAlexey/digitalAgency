@@ -3,4 +3,11 @@
   justify-content: center;
   letter-spacing: 0.05em;
   margin-bottom: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .team__name {
+    margin-bottom: 6px;
+  }
 }

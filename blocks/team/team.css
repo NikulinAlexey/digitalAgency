@@ -2,3 +2,17 @@
   max-width: 1440px;
   margin: 0 auto 100px auto;
 }
+
+@media screen and (max-width: 1830px) {
+  .team {
+    width: 91.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    width: calc(100% - 40px);
+    margin-top: 25px;
+    margin-bottom: 57px;
+  }
+}

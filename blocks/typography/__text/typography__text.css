@@ -5,3 +5,9 @@
   font-size: 18px;
   opacity: .6;
 }
+
+@media screen and (max-width: 768px) {
+  .typography__text {
+    font-size: 16px;
+  }
+}
