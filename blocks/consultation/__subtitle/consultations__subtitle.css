@@ -7,3 +7,10 @@
   letter-spacing: 0.05em;
   margin: 0 auto 30px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .consultations__subtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }  
+}

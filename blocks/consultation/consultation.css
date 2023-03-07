@@ -4,3 +4,9 @@
   background-image: url(../../images/consultation-bg.png);
   background-position: center;
 }
+
+@media screen and (max-width: 768px) {
+  .consultation {
+    margin-bottom: 40px;
+  }  
+}

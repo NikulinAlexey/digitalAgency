@@ -2,3 +2,9 @@
   opacity: .6;
   margin: 0 0 57px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .consultations__paragraph {
+    margin-bottom: 50px;
+  }  
+}

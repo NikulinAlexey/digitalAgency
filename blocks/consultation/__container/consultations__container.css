@@ -7,3 +7,24 @@
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
+
+@media screen and (max-width: 1080px) {
+  .consultations__container {
+    margin-left: auto;
+    margin-right: auto;
+  }  
+}
+
+@media screen and (max-width: 840px) {
+  .consultations__container {
+    width: 100%;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .consultations__container {
+    padding: 30px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }  
+}
