@@ -20,7 +20,8 @@
 
 @media screen and (max-width: 1024px) {
   .reviews__title {
-    text-align: center;
+    text-align: left;
+    margin-left: 40px;
     margin-right: 0;
     margin-bottom: 38px;
   }  
@@ -29,5 +30,12 @@
 @media screen and (max-width: 768px) {
   .reviews__title {
     max-width: 150px;
+  }
+
+  .reviews__title:before {
+    content: url(../../../images/before-content-mobile.png);
+    top: -90px;
+    left: -30px;
+
   }
 }

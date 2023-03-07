@@ -3,15 +3,6 @@
   margin: 0 0 50px 0;
 }
 
-.clients__paragraph:before {
-  content: url(../../../images/before-content.png);
-  top: 5px;
-  left: -60px;
-  position: absolute;
-  opacity: 1;
-  color: inherit;
-}
-
 @media screen and (max-width: 768px) {
   .clients__paragraph {
     margin-bottom: 20px;

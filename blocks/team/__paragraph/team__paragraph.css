@@ -4,20 +4,6 @@
   opacity: .6;
 }
 
-.team__paragraph:before {
-  content: url(../../../images/before-content.png);
-  top: 5px;
-  left: -60px;
-  position: absolute;
-  opacity: 1;
-}
-
-@media screen and (max-width: 1650px) {
-  .team__paragraph:before {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .team__paragraph {
     margin-bottom: 20px;

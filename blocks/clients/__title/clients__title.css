@@ -1,5 +1,28 @@
 .clients__title {
+  position: relative;
   margin: 0 auto 20px 0;
+}
+
+.clients__title:before {
+  content: url(../../../images/before-content.png);
+  position: absolute;
+  top: 70px;
+  left: -60px;
+  opacity: 1;
+  margin-right: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+  .clients__title:before {
+    position: sticky;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clients__title:before {
+    content: url(../../../images/before-content-mobile.png);
+    margin-right: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {

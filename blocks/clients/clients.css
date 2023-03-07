@@ -5,9 +5,10 @@
 
 @media screen and (max-width: 1830px) {
   .clients {
-    width: 91.5%;
+    width: 85%;
   }
 }
+
 
 @media screen and (max-width: 768px) {
   .clients {

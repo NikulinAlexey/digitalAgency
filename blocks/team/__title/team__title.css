@@ -1,19 +1,30 @@
 .team__title {
+  position: relative;
   margin: 0 auto 20px 0;
 }
 
-@media screen and (max-width: 1650px) {
+.team__title:before {
+  content: url(../../../images/before-content.png);
+  position: absolute;
+  top: 70px;
+  left: -60px;
+  opacity: 1;
+  margin-right: 22px;
+}
+
+@media screen and (max-width: 1000px) {
   .team__title:before {
-    content: url(../../../images/before-content.png);
-    top: 5px;
-    left: -60px;
-    opacity: 1;
-    margin-right: 22px;
+    position: sticky;
   }
 }
 
 @media screen and (max-width: 768px) {
   .team__title {
     margin-bottom: 10px;
+  }
+
+  .team__title:before {
+    content: url(../../../images/before-content-mobile.png);
+    margin-right: 20px;
   }
 }
