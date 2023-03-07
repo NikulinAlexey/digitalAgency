@@ -1,4 +1,23 @@
 .questions__image_type_right {
   right: 0;
+  top: 35px;
   background-image: url(../../../../images/questions-right-image.png);
+}
+
+@media screen and (max-width: 1450px) {
+  .questions__image_type_right {
+   top: 15px;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .questions__image_type_right {
+    top: 10px;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .questions__image_type_right {
+    top: 55px;
+  }  
 }

@@ -3,3 +3,10 @@
   color: rgba(255, 255, 255, 0.7);
   margin: 57px 60px 0 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .questions__list-paragraph {
+    margin-top: 20px;
+    margin-right: 0;
+  }  
+}

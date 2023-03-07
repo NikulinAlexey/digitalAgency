@@ -7,3 +7,23 @@
   max-width: 771px;
   text-align: center;
 }
+
+
+@media screen and (max-width: 1280px) {
+  .questions__paragraph {
+    font-size: 20px;
+    max-width: 500px;
+    margin-bottom: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .questions__paragraph {
+    font-family: 'Old standart';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    max-width: 276px;
+    margin-bottom: 81px;
+  }
+}

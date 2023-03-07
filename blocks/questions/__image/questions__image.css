@@ -6,3 +6,25 @@
   background-size: contain;
   z-index: -1;
 }
+
+@media screen and (max-width: 1450px) {
+  .questions__image {
+    width: 418px;
+    height: 726px;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .questions__image {
+    width: 264px;
+    height: 452px;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .questions__image {
+    top: 47px;
+    width: 100px;
+    height: 178px;
+  }  
+}

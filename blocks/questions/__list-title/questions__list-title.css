@@ -1,6 +1,7 @@
 .questions__list-title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .questions__list-title:hover {

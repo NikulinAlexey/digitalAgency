@@ -4,3 +4,9 @@
   margin-bottom: 100px;
   display: flex;
 }
+
+@media screen and (max-width: 768px) {
+  .questions {
+    margin-bottom: 57px;
+  }
+}

@@ -7,3 +7,9 @@
 .questions__list-item:last-of-type {
   border-bottom: 0.5px solid #FFFFFF;
 }
+
+@media screen and (max-width: 1280px) {
+  .questions__list-item {
+    padding: 20px;
+  }
+}
