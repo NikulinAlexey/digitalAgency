@@ -8,3 +8,17 @@
   opacity: 0.4;
   margin: 0 0 57px 0;
 }
+
+@media screen and (max-width: 960px) {
+  .popup__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .popup__paragraph{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}

@@ -8,3 +8,15 @@
   top: calc((100% - 25px) / 2);
   right: -10px;
 }
+
+@media screen and (max-width: 800px) {
+  .popup__cursor {
+    width: 30px;
+    height: 20px;
+    top: calc(100% - 30px);
+    right: calc((100% - 30px) / 2);
+    transform: rotate(90deg);
+    
+    
+  }
+}

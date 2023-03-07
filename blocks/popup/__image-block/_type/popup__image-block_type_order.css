@@ -1,1 +1,9 @@
-.popup__image-block_type_order {}
+.popup__image-block_type_order {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .popup__image-block_type_order {
+    display: none;
+  }
+}

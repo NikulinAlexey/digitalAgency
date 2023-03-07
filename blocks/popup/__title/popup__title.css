@@ -8,3 +8,15 @@
   color: #BB8E5D;
   margin: 0 0 50px 0;
 }
+
+@media screen and (max-width: 960px) {
+  .popup__title {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .popup__title {
+    text-align: center;
+  }
+}

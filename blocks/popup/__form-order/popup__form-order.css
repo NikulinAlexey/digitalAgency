@@ -2,3 +2,9 @@
   margin: 38px 50px 36px 50px;
 
 }
+
+@media screen and (max-width: 960px) {
+  .popup__form-order  {
+    margin: 15px;
+  }
+}

@@ -12,6 +12,7 @@
     margin-top: 60px;
     transition: all .3s ease-in-out;
     overflow: auto;
+    backdrop-filter: blur(10px);
   }
 
   .header__menu.active {

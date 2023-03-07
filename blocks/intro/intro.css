@@ -1,16 +1,12 @@
 .intro {
-  background-image: url(../../images/intro-bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   width: 100%;
- 
   margin: 0 auto 189px auto;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    background-size: contain;
+    margin-bottom: 40px;
   }
 }
+

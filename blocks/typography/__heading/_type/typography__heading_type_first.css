@@ -3,6 +3,7 @@
   font-weight: 700;
   line-height: 130%;
   font-size: 62px;
+  transition: all .3s ease-in-out;
 }
 
 @media screen and (max-width: 1308px) {
