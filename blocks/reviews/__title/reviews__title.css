@@ -2,6 +2,7 @@
   position: relative;
   max-width: 464px;
   margin: 0 auto 0 0;
+  text-transform: uppercase;
 }
 
 .reviews__title:before {
@@ -15,4 +16,18 @@
   letter-spacing: 0.05em;
   line-height: 156px;
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews__title {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 38px;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .reviews__title {
+    max-width: 150px;
+  }
 }

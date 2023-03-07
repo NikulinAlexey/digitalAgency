@@ -10,3 +10,10 @@
   box-shadow: 0px -16px 10px -9px rgba(0, 0, 0, 0.24);
   z-index: 2;
 }
+
+@media screen and (max-width: 1024px) {
+  .reviews__mid-block{
+    height: 9px;
+    top: -9px;
+  }  
+}

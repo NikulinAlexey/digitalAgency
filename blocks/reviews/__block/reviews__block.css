@@ -1,3 +1,15 @@
 .reviews__block {
   
 }
+
+@media screen and (max-width: 1350px) {
+  .reviews__block{
+    width: 58%;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews__block{
+    width: 100%;
+  }  
+}

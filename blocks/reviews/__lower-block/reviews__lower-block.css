@@ -6,3 +6,10 @@
   left: 66px;
   background-color: #fff;
 }
+
+@media screen and (max-width: 1024px) {
+  .reviews__lower-block{
+    height: 9px;
+    top: -18px;
+  }  
+}

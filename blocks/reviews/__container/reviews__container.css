@@ -3,3 +3,24 @@
   margin: 249px auto 94px auto;
   display: flex;
 }
+
+@media screen and (max-width: 1830px) {
+  .reviews__container {
+    width: 91.5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews__container {
+    flex-direction: column;
+    align-items: center;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .reviews__container {
+    width: calc(100% - 40px);
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+}

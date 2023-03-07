@@ -5,3 +5,9 @@
   background-size: contain;
   background-size: 100% 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .reviews {
+    margin-bottom: 40px;
+  }  
+}
