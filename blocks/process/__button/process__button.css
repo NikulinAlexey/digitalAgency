@@ -8,3 +8,9 @@
   margin: 0 auto;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .process__button {
+    display: none;
+  }
+}

@@ -7,3 +7,18 @@
   column-gap: 125px;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 1024px) {
+  .process__items {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .process__items {
+    gap: 30px;
+    grid-template-columns: 1fr;
+    grid-auto-flow: inherit;
+    margin-bottom: 0;
+  }
+}

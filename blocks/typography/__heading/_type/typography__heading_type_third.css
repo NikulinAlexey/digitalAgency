@@ -4,3 +4,15 @@
   line-height: 130%;
   font-size: 52px;
 }
+
+@media screen and (max-width: 1024px) {
+  .typography__heading_type_third {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .typography__heading_type_third {
+    font-size: 18px;
+  }
+}
