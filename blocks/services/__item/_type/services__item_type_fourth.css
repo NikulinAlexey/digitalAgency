@@ -1,3 +1,9 @@
 .services__item_type_fourth {
   background-image: url(../../../../images/services-fourth.jpg);
 }
+
+@media screen and (max-width: 1024px) {
+  .services__item_type_fourth {
+    background-image: url(../../../../images/services-fourth-mobile.png);
+  }
+}

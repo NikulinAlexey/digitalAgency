@@ -1,3 +1,9 @@
 .services__item_type_second {
   background-image: url(../../../../images/services-second.jpg);
 }
+
+@media screen and (max-width: 1024px) {
+  .services__item_type_second {
+    background-image: url(../../../../images/services-second.png);
+  }
+}

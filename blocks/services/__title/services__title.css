@@ -1,4 +1,4 @@
-.services__titile {
+.services__title {
   font-family: 'Zen Antique';
   font-weight: 400;
   font-size: 40px;
@@ -9,4 +9,17 @@
   opacity: 0.5;
   text-align: center;
   max-width: 90%;
+}
+
+@media screen and (max-width: 1330px) {
+  .services__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services__title {
+    font-size: 16px;
+    line-height: 140%;
+  }
 }

@@ -1,3 +1,9 @@
 .services__item_type_first {
   background-image: url(../../../../images/services-first.jpg);
 }
+
+@media screen and (max-width: 1024px) {
+  .services__item_type_first {
+    background-image: url(../../../../images/services-first.png);
+  }
+}
