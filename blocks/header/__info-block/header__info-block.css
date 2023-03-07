@@ -1,0 +1,10 @@
+.header__info-block {
+  display: none;
+  margin-bottom: 53px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__info-block {
+    display: block;
+  }
+}
