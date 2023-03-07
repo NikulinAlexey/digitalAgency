@@ -1,7 +1,32 @@
 .header__link-item {
   margin-right: 32px;
+  transition: all .3s ease-in-out;
 }
 
 .header__link-item:last-of-type {
   margin-right: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .header__link-item {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__link-item {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .header__link-item {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__link-item {
+    margin-bottom: 20px;
+  }
 }

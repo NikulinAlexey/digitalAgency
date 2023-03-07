@@ -1,6 +1,11 @@
 .intro__title {
-  display: inline-block;
   margin: 0;
   text-transform: uppercase;
   max-width: 463px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    max-width: 200px;
+  }
 }

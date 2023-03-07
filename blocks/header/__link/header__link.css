@@ -2,3 +2,12 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .header__link:before {
+    content: url(../../../images/menu-icon-mobile.png);
+    width: 10px;
+    height: 15px;
+    margin-right: 10px;
+  }
+}

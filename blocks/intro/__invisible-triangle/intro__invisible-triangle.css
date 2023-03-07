@@ -1,8 +1,0 @@
-.intro__invisible-triangle {
-  width: 0;
-  height: 0;
-  border: 0 solid transparent;
-  border-left-width: 120px;
-  border-right-width: 120px;
-  border-top: 192px solid transparent;
-}

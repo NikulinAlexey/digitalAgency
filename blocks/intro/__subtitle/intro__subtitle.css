@@ -1,4 +1,11 @@
 .intro__subtitle {
   color: #BB8E5D;
   margin-bottom: 6px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__subtitle {
+    margin-bottom: 0;
+  }
 }

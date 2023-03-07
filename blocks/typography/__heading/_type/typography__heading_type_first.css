@@ -4,3 +4,28 @@
   line-height: 130%;
   font-size: 62px;
 }
+
+@media screen and (max-width: 1308px) {
+  .typography__heading_type_first {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .typography__heading_type_first {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .typography__heading_type_first {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .typography__heading_type_first {
+    font-size: 18px;
+    line-height: 140%;
+  }
+}

@@ -1,3 +1,22 @@
 .intro__item {
   
 }
+
+@media screen and (max-width: 1280px) {
+  .intro__item {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__item {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro__item:last-of-type {
+    margin-bottom: 0;
+  }
+}
+

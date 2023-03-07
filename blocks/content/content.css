@@ -4,11 +4,9 @@
   flex-direction: column;
   margin-top: 111px;
 }
-/*
+
 @media screen and (max-width: 768px) {
   .content {
-    
+    margin-top: 60px;
   }
-  
 }
-*/

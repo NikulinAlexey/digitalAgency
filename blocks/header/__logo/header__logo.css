@@ -7,4 +7,23 @@
   line-height: 130%;
   letter-spacing: 0.05em;
   color: #BB8E5D;
+  transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 1280px) {
+  .header__logo {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header__logo {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    z-index: 3;
+  }
 }
