@@ -13,21 +13,21 @@
   transition: all .3s ease-in-out;
 }
 
-@media screen and (max-width: 1308px) {
-  .intro__upper-block {
-    height: 800px;
-  }
-}
-
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1800px) {
   .intro__upper-block {
     height: 700px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1270px) {
   .intro__upper-block {
     height: 600px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__upper-block {
+    height: 500px;
   }
 }
 

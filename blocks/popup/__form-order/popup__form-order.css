@@ -1,5 +1,5 @@
 .popup__form-order {
-  margin: 38px 50px 36px 50px;
+  margin: 38px 50px 36px 0;
 
 }
 
@@ -7,6 +7,5 @@
   .popup__form-order  {
     width: calc(100% - 30px);
     margin: 15px;
-
   }
 }

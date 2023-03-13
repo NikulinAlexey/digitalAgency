@@ -12,3 +12,5 @@ questionsList.forEach(function(question) {
     .classList.toggle('questions__icon_type_active');
   })
 })
+
+
