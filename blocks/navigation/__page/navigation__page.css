@@ -1,0 +1,9 @@
+.navigation__page {
+  cursor: default;
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation__page {
+    font-size: 12px;
+  }
+}

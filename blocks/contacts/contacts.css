@@ -1,0 +1,10 @@
+.contacts {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts {
+    margin-bottom: 40px;
+  }
+}

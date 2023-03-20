@@ -1,0 +1,28 @@
+.contacts__icon {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .contacts__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .contacts__icon {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__icon {
+    margin-right: 20px;
+  }
+}

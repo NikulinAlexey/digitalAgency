@@ -1,0 +1,4 @@
+.contacts__socials {
+  display: flex;
+  flex-direction: column;
+}

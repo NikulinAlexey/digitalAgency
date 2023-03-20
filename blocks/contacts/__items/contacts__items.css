@@ -1,0 +1,10 @@
+.contacts__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts__items {
+    flex-direction: column;
+  }
+}

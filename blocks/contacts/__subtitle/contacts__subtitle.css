@@ -1,0 +1,9 @@
+.contacts__subtitle {
+  margin: 0 0 27px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts__subtitle {
+    margin-bottom: 10px;
+  }
+}

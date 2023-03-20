@@ -39,6 +39,7 @@
 @import url(../blocks/header/__link-icon/_type/header__link-icon_type_telegram.css);
 @import url(../blocks/header/__link-icon/_type/header__link-icon_type_wa.css);
 @import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__link-logo/header__link-logo.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__container/intro__container.css);
@@ -143,7 +144,7 @@
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__socials/footer__socials.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-@import url(../blocks/footer/__social-icon/_type/footer__social-icon_type_instagram.css);
+@import url(../blocks/footer/__social-icon/_type/footer__social-icon_type_vk.css);
 @import url(../blocks/footer/__social-icon/_type/footer__social-icon_type_telegram.css);
 @import url(../blocks/footer/__social-icon/_type/footer__social-icon_type_whatsapp.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
@@ -156,6 +157,7 @@
 @import url(../blocks/footer/__contact-text/footer__contact-text.css);
 @import url(../blocks/footer/__lower-block/footer__lower-block.css);
 @import url(../blocks/footer/__politics/footer__politics.css);
+@import url(../blocks/footer/__link-logo/footer__link-logo.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__container/popup__container.css);
@@ -178,3 +180,33 @@
 @import url(../blocks/popup/__form-order/popup__form-order.css);
 @import url(../blocks/popup/__image-block/_type/popup__image-block_type_order.css);
 @import url(../blocks/popup/__subparagraph/popup__subparagraph.css);
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__icon/navigation__icon.css);
+@import url(../blocks/navigation/__main-link/navigation__main-link.css);
+@import url(../blocks/navigation/__page/navigation__page.css);
+
+@import url(../blocks/contacts-background/contacts-background.css);
+@import url(../blocks/contacts-map/contacts-map.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__items/contacts__items.css);
+@import url(../blocks/contacts/__item/contacts__item.css);
+@import url(../blocks/contacts/__socials/contacts__socials.css);
+@import url(../blocks/contacts/__icon-block/contacts__icon-block.css);
+@import url(../blocks/contacts/__icon/contacts__icon.css);
+@import url(../blocks/contacts/__icons/contacts__icons.css);
+@import url(../blocks/contacts/__icon/_type/contacts__icon_type_phone.css);
+@import url(../blocks/contacts/__icon/_type/contacts__icon_type_mail.css);
+@import url(../blocks/contacts/__icon/_type/contacts__icon_type_address.css);
+@import url(../blocks/contacts/__icon/_type/contacts__icon_type_time.css);
+@import url(../blocks/contacts/__icon/_type/contacts__icon_type_wa.css);
+@import url(../blocks/contacts/__icon/_type/contacts__icon_type_tg.css);
+@import url(../blocks/contacts/__icon/_type/contacts__icon_type_vk.css);
+@import url(../blocks/contacts/__info-block/contacts__info-block.css);
+@import url(../blocks/contacts/__subtitle/contacts__subtitle.css);
+@import url(../blocks/contacts/__subtitle/_type/contacts__subtitle_type_socials.css);
+@import url(../blocks/contacts/__paragraph/contacts__paragraph.css);
+@import url(../blocks/contacts/__link/contacts__link.css);
