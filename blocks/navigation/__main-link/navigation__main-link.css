@@ -1,4 +1,5 @@
 .navigation__main-link {
+  display: block;
   text-decoration: none;
   color: #818181;
   font-family: 'Inter';
@@ -7,14 +8,13 @@
   line-height: 140%;
   margin-right: 10px;
   overflow: hidden;
-  display: flex;
-  align-items: center;
+  padding: 4px 0 0 0;
 }
 
 .navigation__main-link:after {
   display: block;
   content: '';
-  border-bottom: solid 1px #BB8E5D;  
+  border-bottom: solid 1px #BB8E5D;
   transform: translateX(-100%);
   transition: transform .3s ease-in-out;
 }
