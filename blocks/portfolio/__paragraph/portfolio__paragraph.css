@@ -1,0 +1,9 @@
+.portfolio__paragraph {
+  margin: 0 0 73px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio__paragraph {
+    margin-bottom: 24px;
+  }
+}

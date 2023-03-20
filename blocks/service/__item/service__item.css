@@ -1,0 +1,12 @@
+.service__item {
+  background-image: url(../../../images/service-item-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 1px solid #BB8E5D;
+  box-sizing: border-box;
+  padding: 55px 50px;
+}

@@ -1,0 +1,16 @@
+.portfolio__container {
+  width: 1680px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1830px) {
+  .portfolio__container {
+    width: 91.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__container {
+    width: calc(100% - 40px);
+  }
+}

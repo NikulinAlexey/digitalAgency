@@ -1,0 +1,8 @@
+.service__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  gap: 40px;
+  width: 100%;
+  grid-auto-rows: auto;
+}

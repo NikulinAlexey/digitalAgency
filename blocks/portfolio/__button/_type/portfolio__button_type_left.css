@@ -1,0 +1,7 @@
+.portfolio__button_type_left {
+  background-image: url(../../../../images/arrow-left.png);
+}
+
+.portfolio__button_type_left:hover {
+  background-image: url(../../../../images/arrow-color-white.png);
+}

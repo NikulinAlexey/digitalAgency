@@ -1,0 +1,10 @@
+.service__title {
+  margin: 40px auto auto 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .service__title {
+    margin: 28px auto auto auto;
+    text-transform: uppercase;
+  }
+}

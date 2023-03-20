@@ -1,0 +1,25 @@
+.gratitude__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: min-content;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1280px) {
+  .gratitude__items {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .gratitude__items {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gratitude__items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}

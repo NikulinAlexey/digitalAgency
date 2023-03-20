@@ -210,3 +210,33 @@
 @import url(../blocks/contacts/__subtitle/_type/contacts__subtitle_type_socials.css);
 @import url(../blocks/contacts/__paragraph/contacts__paragraph.css);
 @import url(../blocks/contacts/__link/contacts__link.css);
+
+@import url(../blocks/gratitude/gratitude.css);
+@import url(../blocks/gratitude/__container/gratitude__container.css);
+@import url(../blocks/gratitude/__title/gratitude__title.css);
+@import url(../blocks/gratitude/__paragraph/gratitude__paragraph.css);
+@import url(../blocks/gratitude/__items/gratitude__items.css);
+@import url(../blocks/gratitude/__item/gratitude__item.css);
+
+@import url(../blocks/service/service.css);
+@import url(../blocks/service/__container/service__container.css);
+@import url(../blocks/service/__intro/service__intro.css);
+@import url(../blocks/service/__mask/service__mask.css);
+@import url(../blocks/service/__title/service__title.css);
+@import url(../blocks/service/__items/service__items.css);
+@import url(../blocks/service/__item/service__item.css);
+@import url(../blocks/service/__item-info/service__item-info.css);
+@import url(../blocks/service/__icon/service__icon.css);
+@import url(../blocks/service/__subtitle/service__subtitle.css);
+
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__container/portfolio__container.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
+@import url(../blocks/portfolio/__subtitle/portfolio__subtitle.css);
+@import url(../blocks/portfolio/__paragraph/portfolio__paragraph.css);
+@import url(../blocks/portfolio/__items/portfolio__items.css);
+@import url(../blocks/portfolio/__item/portfolio__item.css);
+@import url(../blocks/portfolio/__buttons/portfolio__buttons.css);
+@import url(../blocks/portfolio/__button/portfolio__button.css);
+@import url(../blocks/portfolio/__button/_type/portfolio__button_type_left.css);
+@import url(../blocks/portfolio/__button/_type/portfolio__button_type_right.css);
