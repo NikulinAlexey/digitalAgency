@@ -1,0 +1,9 @@
+.calculator__title {
+  margin: 0 0 50px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__title {
+    margin-bottom: 20px;
+  }
+}

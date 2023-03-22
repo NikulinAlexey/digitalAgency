@@ -1,0 +1,7 @@
+.calculator__selects {
+  box-sizing: border-box;
+  padding: 50px 70px;
+  box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.1);
+  background-color: rgba(10, 25, 33, .2);
+  height: 296px;
+}

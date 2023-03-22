@@ -1,0 +1,6 @@
+.calculator__form {
+  display: grid;
+  grid-template-columns: 1fr 32%;
+  grid-template-rows: min-content;
+  gap: 40px;
+}

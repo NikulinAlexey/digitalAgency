@@ -1,0 +1,17 @@
+.calculator__select-item {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 1px solid #BB8E5D;
+  outline: none;
+  padding: 28px 30px;
+  box-sizing: border-box;
+  color: #B3B3B3;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  -webkit-appearance: none;
+  appearance: none;
+}

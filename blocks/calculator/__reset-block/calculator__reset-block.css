@@ -1,0 +1,4 @@
+.calculator__reset-block {
+  display: flex;
+  justify-content: end;
+}

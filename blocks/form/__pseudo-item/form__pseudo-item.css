@@ -1,0 +1,19 @@
+.form__pseudo-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #BB8E5D;
+  margin-right: 30px;
+}
+
+.form__item_type_original:checked + .form__pseudo-item_type_radio {
+  background-image: url(../../../images/radio-bg.png);
+  background-size: 12px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.form__item_type_original:disabled + .form__pseudo-item_type_radio {
+  background-color: transparent;
+}
+

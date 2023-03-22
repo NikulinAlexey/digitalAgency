@@ -1,0 +1,24 @@
+.scheme__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: min-content;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1600px) {
+  .scheme__items {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .scheme__items {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .scheme__items {
+    gap: 10px;
+  }
+}

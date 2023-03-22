@@ -1,0 +1,4 @@
+.form__block-item {
+  display: flex;
+  flex-direction: column;
+}

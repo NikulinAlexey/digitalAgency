@@ -1,0 +1,7 @@
+.search__numbers {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

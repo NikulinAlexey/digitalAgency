@@ -1,0 +1,8 @@
+.search__choice-block {
+  background-image: url(../../../images/search-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 536px;
+  display: flex;
+}

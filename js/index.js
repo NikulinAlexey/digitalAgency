@@ -9,6 +9,8 @@ const popupConsultation = document.querySelector('.popup_type_consultation');
 const popupOrder = document.querySelector('.popup_type_order')
 const popups = document.querySelectorAll('.popup');
 
+const radioButtons = document.querySelectorAll('.form__item');
+
 function closeByEscape (evt) {
   if(evt.key === 'Escape') {
     const openedPopup = document.querySelector('.popup__opened');
@@ -75,6 +77,17 @@ btnBurger.addEventListener('click', function () {
   document.querySelector('.body').classList.toggle('lock');
 })
 
+radioButtons.forEach((item) => {
+  item.addEventListener('input', (evt) => {
+    if(evt.target.checked) {
+      radioButtons.forEach((item) => {
+        item.parentNode.closest('.form__label').querySelector('.form__label-text').classList.remove('form__label-text-type_active');
+      });
+      
+      evt.target.parentNode.closest('.form__label').querySelector('.form__label-text').classList.add('form__label-text-type_active');
+    }
+  })
+})
 
 
 

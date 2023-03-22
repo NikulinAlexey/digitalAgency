@@ -1,0 +1,5 @@
+.form__block {
+  display: flex;
+  margin: 0 240px 80px 102px;
+  justify-content: space-between;
+}

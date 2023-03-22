@@ -1,0 +1,7 @@
+.calculator__reset-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../images/reset-icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
