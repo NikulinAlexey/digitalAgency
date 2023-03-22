@@ -25,7 +25,7 @@ const dataPrices = {
 }
 
 function changePrice (data) {
-  let result = 200;
+  let result = 0;
   let servicePrice = 0;
   let devPrice = 0;
 
@@ -37,14 +37,12 @@ function changePrice (data) {
     devPrice = data.devSelect[`${selectDev.value}`];
     result = `от ${servicePrice + devPrice} руб.`;
     resultPrice.textContent = result;
-    console.log(devPrice)
   })
 
   selectService.addEventListener('change', () => {
     servicePrice = data.serviceSelect[`${selectService.value}`];
     result = `от ${servicePrice + devPrice} руб.`;
     resultPrice.textContent = result;
-    console.log(servicePrice)
   });
 }
 
