@@ -3,13 +3,55 @@ const menu = document.querySelector('.header__menu');
 
 const questionsList = Array.from(document.querySelectorAll('.questions__list-title'));
 
-const buttonConsultation = document.querySelector('.consultations__button');
-const buttonOrder = document.querySelector('.process__button');
-const popupConsultation = document.querySelector('.popup_type_consultation');
-const popupOrder = document.querySelector('.popup_type_order')
-const popups = document.querySelectorAll('.popup');
-
 const radioButtons = document.querySelectorAll('.form__item');
+
+const buttonReset = document.querySelector('.calculator__reset-block');
+const resultPrice = document.querySelector('.calculator__price');
+
+const selectService = document.querySelector('.calculator__select-item_type_service');
+const selectDev = document.querySelector('.calculator__select-item_type_dev');
+
+const dataPrices = {
+  serviceSelect: {
+    service1: 100,
+    service2: 200,
+    service3: 300,
+  },
+  devSelect: {
+    dev1: 100,
+    dev2: 200,
+    dev3: 300,
+  }
+}
+
+function changePrice (data) {
+  let result = 200;
+  let servicePrice = 0;
+  let devPrice = 0;
+
+  buttonReset.addEventListener('click', () => {
+    result = 0;
+  });
+
+  selectDev.addEventListener('change', () => {
+    devPrice = data.devSelect[`${selectDev.value}`];
+    result = `от ${servicePrice + devPrice} руб.`;
+    resultPrice.textContent = result;
+    console.log(devPrice)
+  })
+
+  selectService.addEventListener('change', () => {
+    servicePrice = data.serviceSelect[`${selectService.value}`];
+    result = `от ${servicePrice + devPrice} руб.`;
+    resultPrice.textContent = result;
+    console.log(servicePrice)
+  });
+}
+
+$(buttonReset).click(() => {
+  $('.calculator__select-item').prop('selectedIndex',0);
+  resultPrice.textContent = `от 0 руб.`
+})
 
 function closeByEscape (evt) {
   if(evt.key === 'Escape') {
@@ -40,17 +82,6 @@ $(function(){
   });
 });
 
-popups.forEach((popup) => {
-  popup.addEventListener('mousedown', (evt) => {
-      if (evt.target.classList.contains('popup_opened')) {
-          closePopup(popup)
-      }
-      if (evt.target.classList.contains('popup__close-icon')) {
-        closePopup(popup)
-      }
-  })
-})
-
 questionsList.forEach(function(question) {
   question.addEventListener('click', function(evt) {
     evt.target.closest('.questions__list-item')
@@ -62,14 +93,6 @@ questionsList.forEach(function(question) {
     .classList.toggle('questions__icon_type_active');
   })
 })
-
-buttonConsultation.addEventListener('click', function() {
-  openPopup(popupConsultation);
-});
-
-buttonOrder.addEventListener('click', function() {
-  openPopup(popupOrder)
-});
 
 btnBurger.addEventListener('click', function () {
   btnBurger.classList.toggle('active');
@@ -89,5 +112,4 @@ radioButtons.forEach((item) => {
   })
 })
 
-
-
+changePrice(dataPrices);

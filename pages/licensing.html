@@ -356,24 +356,28 @@
         <div class="calculator__container">
           <h3 class="calculator__subtitle typography__text_type_button">CКОЛЬКО БУДЕТ СТОИТЬ ТВОЙ САЙТ?</h3>
           <h2 class="calculator__title typography__heading_type_second">КАЛЬКУЛЯТОР СТОИМОСТИ УСЛУГ</h2>
-          <form action="submit" class="calculator__form">
+          <form action="submit" class="calculator__form" id="price-form">
             <div class="calculator__selects">
               <div class="calculator__selects-grid-block">
                 <div class="calculator__select-container">
                   <h4 class="calculator__select-title typography__text_type_button">тип услуги</h4>
                   <div class="calculator__select-block">
-                    <select name="" id="" class="calculator__select-item hover-element">
-                      <option value="">Выбор 1</option>
-                      <option value="">Выбор 2</option>
+                    <select name="" id="" class="calculator__select-item calculator__select-item_type_service hover-element" required form="price-form">
+                      <option disabled selected>Выберите услугу</option>
+                      <option value="service1">Услуга 1</option>
+                      <option value="service2">Услуга 2</option>
+                      <option value="service3">Услуга 3</option>
                     </select>
                   </div>
                 </div>
                 <div class="calculator__select-container">
                   <h4 class="calculator__select-title typography__text_type_button">разработка</h4>
                   <div class="calculator__select-block">
-                    <select name="" id="" class="calculator__select-item hover-element">
-                      <option value="">Выбор 1</option>
-                      <option value="">Выбор 2</option>
+                    <select name="" id="" class="calculator__select-item calculator__select-item_type_dev hover-element" required form="price-form">
+                      <option disabled selected>Выберите тип разработки</option>
+                      <option value="dev1">Разработка 1</option>
+                      <option value="dev2">Разработка 2</option>
+                      <option value="dev3">Разработка 3</option>
                     </select>
                   </div>
                 </div>
@@ -385,16 +389,17 @@
             </div>
             <div class="calculator__order-block">
               <h3 class="calculator__order-title">Заказать проект</h3>
-              <input type="text" class="calculator__input" placeholder="Ваше имя*" minlength="2" maxlength="200">
-              <input type="text" class="calculator__input" placeholder="Телефон*">
-              <input type="email" class="calculator__input" placeholder="Email">
+              <input type="text" class="calculator__input" placeholder="Ваше имя*" minlength="2" maxlength="30" required>
+              <input type="text" class="calculator__input" placeholder="Телефон*" minlength="2" maxlength="20" required>
+              <input type="email" class="calculator__input" placeholder="Email" required>
               <div class="calculator__price-block">
                 <span class="calculator__price-text typography__text_type_second">Цена:</span>
                 <span class="calculator__price">от 0 руб.</span>
               </div>
               <button class="calculator__submit typography__text_type_button hover-element_type_button">ОСТАВИТЬ ЗАЯВКУ</button>
-              <p class="calculator__paragraph">Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку своих <a href="#" class="calculator__accent  hover-element">персональных данных</a> 
-                и соглашаетесь с политикой .
+              <p class="calculator__paragraph">Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку своих
+                <a href="#" class="calculator__accent  hover-element">персональных данных</a> 
+                и соглашаетесь с политикой.
               </p>
             </div>
           </form>
@@ -627,6 +632,7 @@
   </div>
   
   <script src="../js/libs/jquery-3.6.3.min.js"></script>
+  <!--<script src="../js/popup.js"></script>-->
   <script src="../js/index.js"></script>
 </body>
 
