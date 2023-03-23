@@ -240,6 +240,7 @@
 @import url(../blocks/portfolio/__button/portfolio__button.css);
 @import url(../blocks/portfolio/__button/_type/portfolio__button_type_left.css);
 @import url(../blocks/portfolio/__button/_type/portfolio__button_type_right.css);
+@import url(../blocks/portfolio/__slider-container/porfolio__slider-container.css);
 
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__container/search__container.css);

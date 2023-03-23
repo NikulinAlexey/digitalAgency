@@ -11,6 +11,10 @@ const resultPrice = document.querySelector('.calculator__price');
 const selectService = document.querySelector('.calculator__select-item_type_service');
 const selectDev = document.querySelector('.calculator__select-item_type_dev');
 
+
+const buttonPortfolioLeft = document.querySelector('.portfolio__button_type_left');
+const buttonPortfolioRight = document.querySelector('.portfolio__button_type_right');
+
 const dataPrices = {
   serviceSelect: {
     service1: 100,
@@ -51,6 +55,33 @@ $(buttonReset).click(() => {
   resultPrice.textContent = `от 0 руб.`
 })
 
+let currentSlide = 0;
+const slides = document.querySelectorAll(".portfolio__items")
+
+const init = (n) => {
+  slides.forEach((slide) => {
+    slide.style.display = "none"
+  })
+  slides[n].style.display = "grid";
+}
+document.addEventListener("DOMContentLoaded", init(currentSlide))
+const next = () => {
+  currentSlide >= slides.length - 1 ? currentSlide = 0 : currentSlide++
+  init(currentSlide)
+}
+
+const prev = () => {
+  currentSlide <= 0 ? currentSlide = slides.length - 1 : currentSlide--
+  init(currentSlide)
+}
+
+buttonPortfolioRight.addEventListener('click', next)
+
+buttonPortfolioLeft.addEventListener('click', prev)
+
+
+
+
 function closeByEscape (evt) {
   if(evt.key === 'Escape') {
     const openedPopup = document.querySelector('.popup__opened');
@@ -69,12 +100,10 @@ function closePopup (popup) {
 }
 
 $(function(){
-  $('.portfolio__item').height($('.portfolio__item').width());
   $('.clients__item-block').height($('.clients__item-block').width());
   $('.gratitude__item').height($('.gratitude__item').width()/1.3);
 
   $(window).resize(function(){
-    $('.portfolio__item').height($('.portfolio__item').width());
     $('.clients__item-block').height($('.clients__item-block').width());
     $('.gratitude__item').height($('.gratitude__item').width()/1.3);
   });

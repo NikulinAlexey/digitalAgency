@@ -1,6 +1,6 @@
 .hover-element_type_button {
   background-color: transparent;
-  transition: all .3s ease-in-out;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
 }
 
 .hover-element_type_button:hover {
