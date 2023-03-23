@@ -7,3 +7,9 @@
     margin-bottom: 24px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .scheme__paragraph {
+    margin: 0 20px 20px;
+  }
+}

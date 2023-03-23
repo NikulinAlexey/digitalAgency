@@ -3,6 +3,13 @@
   height: 60px;
   background-color: transparent;
   border: 1px solid #BB8E5D;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   color: #fff;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .form__submit {
+    width: calc(100% - 40px);
+  }
 }

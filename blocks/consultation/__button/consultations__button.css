@@ -5,6 +5,7 @@
   border: 1px solid #BB8E5D;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
   letter-spacing: 0.05em;
 }

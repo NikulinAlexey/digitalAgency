@@ -14,4 +14,17 @@
   position: absolute;
   top: 35px;
   right: 35px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__select-block {
+    height: 60px;
+  }
+  .calculator__select-block:after {
+    width: 6px;
+    height: 12px;
+    top: 25px;
+    right: 25px;
+  }
 }

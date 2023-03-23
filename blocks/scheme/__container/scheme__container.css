@@ -9,8 +9,16 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .scheme__container {
     width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scheme__container {
+    width: 100%;
+    margin: 0 auto;
   }
 }

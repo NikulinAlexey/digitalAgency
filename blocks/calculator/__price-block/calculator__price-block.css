@@ -1,3 +1,9 @@
 .calculator__price-block {
   margin: 0 0 50px 0;
 }
+
+@media screen and (max-width: 1400px) {
+  .calculator__price-block {
+    margin-bottom: 20px;
+  }
+}

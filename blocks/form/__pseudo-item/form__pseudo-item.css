@@ -5,6 +5,7 @@
   height: 30px;
   border: 1px solid #BB8E5D;
   margin-right: 30px;
+  box-sizing: border-box;
 }
 
 .form__item_type_original:checked + .form__pseudo-item_type_radio {
@@ -17,3 +18,24 @@
   background-color: transparent;
 }
 
+@media screen and (max-width: 1600px) {
+  .form__pseudo-item {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .form__pseudo-item {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .form__pseudo-item {
+    width: 20px;
+    height: 20px;
+  }
+  .form__item_type_original:checked + .form__pseudo-item_type_radio {
+    background-size: 8px 8px;
+  }
+}

@@ -1,5 +1,13 @@
 .search__main-block {
   border: 1px solid #818181;
-  height: 456px;
   width: 100%;
+  height: calc(100% - 80px);
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .search__main-block {
+    height: calc(100% - 40px);
+  }
 }

@@ -11,7 +11,8 @@ const resultPrice = document.querySelector('.calculator__price');
 const selectService = document.querySelector('.calculator__select-item_type_service');
 const selectDev = document.querySelector('.calculator__select-item_type_dev');
 
-
+let currentSlide = 0;
+const slides = document.querySelectorAll(".portfolio__items");
 const buttonPortfolioLeft = document.querySelector('.portfolio__button_type_left');
 const buttonPortfolioRight = document.querySelector('.portfolio__button_type_right');
 
@@ -55,9 +56,6 @@ $(buttonReset).click(() => {
   resultPrice.textContent = `от 0 руб.`
 })
 
-let currentSlide = 0;
-const slides = document.querySelectorAll(".portfolio__items")
-
 const init = (n) => {
   slides.forEach((slide) => {
     slide.style.display = "none"
@@ -69,18 +67,10 @@ const next = () => {
   currentSlide >= slides.length - 1 ? currentSlide = 0 : currentSlide++
   init(currentSlide)
 }
-
 const prev = () => {
   currentSlide <= 0 ? currentSlide = slides.length - 1 : currentSlide--
   init(currentSlide)
 }
-
-buttonPortfolioRight.addEventListener('click', next)
-
-buttonPortfolioLeft.addEventListener('click', prev)
-
-
-
 
 function closeByEscape (evt) {
   if(evt.key === 'Escape') {
@@ -88,12 +78,10 @@ function closeByEscape (evt) {
     closePopup(openedPopup);
   }
 }
-
 function openPopup (popup) {
   popup.classList.add('popup_opened');
   document.addEventListener('keydown', closeByEscape);
 }
-
 function closePopup (popup) {
   popup.classList.remove('popup_opened');
   document.removeEventListener('keydown', closeByEscape);
@@ -120,12 +108,14 @@ questionsList.forEach(function(question) {
     .classList.toggle('questions__icon_type_active');
   })
 })
-
 btnBurger.addEventListener('click', function () {
   btnBurger.classList.toggle('active');
   menu.classList.toggle('active');
   document.querySelector('.body').classList.toggle('lock');
 })
+
+buttonPortfolioRight.addEventListener('click', next)
+buttonPortfolioLeft.addEventListener('click', prev)
 
 radioButtons.forEach((item) => {
   item.addEventListener('input', (evt) => {

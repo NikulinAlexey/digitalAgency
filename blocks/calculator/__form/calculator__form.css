@@ -4,3 +4,35 @@
   grid-template-rows: min-content;
   gap: 40px;
 }
+
+@media screen and (max-width: 1500px) {
+  .calculator__form {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .calculator__form {
+    gap: 25px;
+    grid-template-columns: 1fr 450px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__form {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .calculator__form {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .calculator__form {
+    gap: 10px;
+    grid-template-columns: 1fr;
+  }
+}

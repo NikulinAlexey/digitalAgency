@@ -5,3 +5,37 @@
   background-color: rgba(10, 25, 33, .2);
   height: 296px;
 }
+
+@media screen and (max-width: 1500px) {
+  .calculator__selects {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .calculator__selects {
+    padding: 30px;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .calculator__selects {
+    height: 390px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__selects {
+    padding: 20px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .calculator__selects {
+    box-shadow: none;
+    height: 100%;
+    background-color: rgba(10, 25, 33, 1);
+  }
+}

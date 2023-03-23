@@ -5,3 +5,10 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+@media screen and (max-width: 768px) {
+  .calculator__reset-icon {
+    width: 16px;
+    height: 16px;
+  }
+}

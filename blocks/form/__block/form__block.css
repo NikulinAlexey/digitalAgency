@@ -3,3 +3,31 @@
   margin: 0 240px 80px 102px;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1580px) {
+  .form__block {
+    margin: 0 120px 80px 102px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .form__block {
+    margin-right: auto;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .form__block {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form__block {
+    flex-direction: column;
+  }
+}

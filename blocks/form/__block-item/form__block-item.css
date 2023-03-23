@@ -2,3 +2,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1280px) {
+  .form__block-item {
+    margin-right: 20px;
+  }
+}

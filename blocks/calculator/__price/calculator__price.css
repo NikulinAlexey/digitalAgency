@@ -5,3 +5,9 @@
   line-height: 130%;
   letter-spacing: 0.05em;
 }
+
+@media screen and (max-width: 1024px) {
+  .calculator__price {
+    font-size: 28px;
+  }
+}

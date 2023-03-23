@@ -1,3 +1,4 @@
 .search__numbers_type_right {
   transform: rotate(180deg);
+  right: 0;
 }

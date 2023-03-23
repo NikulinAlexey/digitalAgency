@@ -10,8 +10,15 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .search__container {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .search__container {
-    width: calc(100% - 40px);
+    width: 100%;
   }
 }

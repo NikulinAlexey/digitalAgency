@@ -1,4 +1,11 @@
 .search__center-block {
-  width: 1600px;
-  max-width: 1600px;
+  width: calc(100% - 80px);
+  margin: 0 40px;
+}
+
+@media screen and (max-width: 1280px) {
+  .search__center-block {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
 }

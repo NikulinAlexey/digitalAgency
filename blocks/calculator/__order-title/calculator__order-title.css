@@ -7,3 +7,16 @@
   color: #BB8E5D;
   margin: 0 0 45px 0;
 }
+
+@media screen and (max-width: 1400px) {
+  .calculator__order-title {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .calculator__order-title {
+    margin-bottom: 7px;
+    font-size: 10px;
+  }
+}

@@ -2,3 +2,10 @@
   margin: 0 0 73px 0;
   max-width: 1426px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .gratitude__paragraph {
+    margin-bottom: 20px;
+  }
+}

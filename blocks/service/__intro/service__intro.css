@@ -26,6 +26,7 @@
   .service__intro {
     background-image: url(../../../images/service-bg-mobile.png);
     height: 350px;
+    margin-bottom: 40px;
   }
 }
 

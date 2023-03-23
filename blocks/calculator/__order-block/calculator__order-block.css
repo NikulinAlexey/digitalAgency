@@ -6,3 +6,21 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1400px) {
+  .calculator__order-block {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__order-block {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .calculator__order-block {
+    box-shadow: none;
+  }
+}

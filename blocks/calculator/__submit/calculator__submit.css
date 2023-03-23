@@ -6,3 +6,9 @@
   height: 60px;
   margin-bottom: 24px;
 }
+
+@media screen and (max-width: 768px) {
+  .calculator__submit {
+    margin-bottom: 20px;
+  }
+}

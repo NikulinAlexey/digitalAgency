@@ -2,3 +2,16 @@
   margin: 0 0 10px 0;
   color: #BB8E5D;
 }
+
+@media screen and (max-width: 1024px) {
+  .search__subtitle {
+    margin: 0 20px 10px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search__subtitle {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}

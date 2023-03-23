@@ -2,3 +2,10 @@
   color: #BB8E5D;
   margin: 0 auto 20px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .calculator__select-title {
+    margin-bottom: 7px;
+    font-size: 10px;
+  }
+}

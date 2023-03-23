@@ -24,3 +24,18 @@
   line-height: 130%;
   color: #B3B3B3;
 }
+
+@media screen and (max-width: 1400px) {
+  .calculator__input {
+    margin-bottom: 30px;
+  }
+  .calculator__input:last-of-type {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__input::placeholder {
+    font-size: 14px;
+  }
+}
