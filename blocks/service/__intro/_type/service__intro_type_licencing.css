@@ -1,0 +1,9 @@
+.service__intro_type_licencing {
+  background-image: url(../../../../images/service-bg.png);
+}
+
+@media screen and (max-width: 768px) {
+  .service__intro_type_licencing {
+    background-image: url(../../../../images/service-bg-mobile.png);
+  }
+}
