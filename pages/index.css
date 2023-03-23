@@ -223,7 +223,7 @@
 @import url(../blocks/service/__intro/service__intro.css);
 @import url(../blocks/service/__intro/_type/service__intro_type_licencing.css);
 @import url(../blocks/service/__intro/_type/service__intro_type_accounting.css);
-@import url();
+@import url(../blocks/service/__intro/_type/service__intro_type_personnel.css);
 @import url(../blocks/service/__mask/service__mask.css);
 @import url(../blocks/service/__title/service__title.css);
 @import url(../blocks/service/__items/service__items.css);
@@ -246,6 +246,7 @@
 @import url(../blocks/portfolio/__slider-container/porfolio__slider-container.css);
 
 @import url(../blocks/search/search.css);
+@import url(../blocks/search/_type/search_type_portfolio.css);
 @import url(../blocks/search/__container/search__container.css);
 @import url(../blocks/search/__subtitle/search__subtitle.css);
 @import url(../blocks/search/__title/search__title.css);

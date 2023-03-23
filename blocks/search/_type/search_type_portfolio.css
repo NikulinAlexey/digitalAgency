@@ -1,0 +1,9 @@
+.search_type_portfolio {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .search_type_portfolio {
+    margin-top: 10px;
+  }
+}
