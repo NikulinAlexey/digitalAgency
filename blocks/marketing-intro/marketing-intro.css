@@ -1,0 +1,13 @@
+.marketing-intro {
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .marketing-intro {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+}

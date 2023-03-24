@@ -1,0 +1,11 @@
+.advantages__subtitle {
+  color: #BB8E5D;
+  margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages__subtitle {
+    margin: 0 auto 10px 0;
+    font-size: 10px;
+  }
+}

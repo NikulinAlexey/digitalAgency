@@ -2,13 +2,15 @@
   width: 10px;
   height: 15px;
   background-image: url(../../../images/menu-icon-mobile.png);
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 10px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .navigation__icon {
+    min-width: 6px;
     width: 6px;
     height: 9px;
   }

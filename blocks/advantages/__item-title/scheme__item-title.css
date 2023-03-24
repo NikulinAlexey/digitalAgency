@@ -1,0 +1,21 @@
+.advantages__item-title {
+  position: relative;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #BB8E5D;
+}
+
+.advantages__item-title:before {
+  content: url(../../../images/subtitle-icon.png);
+  width: 20px;
+  height: 20px;
+  margin-right: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages__item-title {
+    font-size: 16px;
+  }
+}

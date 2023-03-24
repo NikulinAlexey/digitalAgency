@@ -8,7 +8,9 @@
   line-height: 140%;
   margin-right: 10px;
   overflow: hidden;
-  padding: 4px 0 0 0;
+  white-space: nowrap;
+  min-width: min-content;
+  
 }
 
 .navigation__main-link:after {

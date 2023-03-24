@@ -9,6 +9,14 @@
   border: 1px solid #BB8E5D;
   box-sizing: border-box;
   padding: 55px 50px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.service__item:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 1850px) {

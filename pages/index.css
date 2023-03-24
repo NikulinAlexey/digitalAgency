@@ -317,3 +317,14 @@
 @import url(../blocks/calculator/__submit/calculator__submit.css);
 @import url(../blocks/calculator/__paragraph/calculator__paragraph.css);
 @import url(../blocks/calculator/__accent/calculator__accent.css);
+
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__subtitle/scheme__subtitle.css);
+@import url(../blocks/advantages/__title/scheme__title.css);
+@import url(../blocks/advantages/__paragraph/scheme__paragraph.css);
+@import url(../blocks/advantages/__items/scheme__items.css);
+@import url(../blocks/advantages/__item/scheme__item.css);
+@import url(../blocks/advantages/__item-title/scheme__item-title.css);
+@import url(../blocks/advantages/__item-paragraph/scheme__item-paragraph.css);
+
+@import url(../blocks/marketing-intro/marketing-intro.css);
