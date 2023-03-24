@@ -7,6 +7,10 @@
   height: 54px;
 }
 
+.questions__list-paragraph_type_active  .questions__icon {
+  background-image: url(../../../images/chess-icon-active.png);
+}
+
 @media screen and (max-width: 1024px) {
   .questions__icon {
     width: 40px;

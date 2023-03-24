@@ -11,6 +11,16 @@
   box-sizing:border-box;
   padding-top: 100px;
   transition: all .3s ease-in-out;
+  animation: bg-change 20s linear infinite alternate-reverse;
+}
+
+@keyframes bg-change {
+  from {
+    background-image: url(../../../images/intro-bg.png);
+  }
+  to {
+    background-image: url(../../../images/intro-bg-white.png);
+  }
 }
 
 @media screen and (max-width: 1800px) {

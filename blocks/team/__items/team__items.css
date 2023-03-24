@@ -1,24 +1,25 @@
 .team__items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, auto));
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: max-content;
   gap: 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .team__items {
-    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1024px) {
   .team__items {
-    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .team__items {
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
 }
