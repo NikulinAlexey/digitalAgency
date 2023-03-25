@@ -1,23 +1,14 @@
-const qustionsBlockSelector = '.questions__list';
-const qustionsItemSelector = '.questions__list-item';
-const paragraphActiveClass = 'questions__list-paragraph_type_active';
-const paragraph = document.querySelector('.qustions__list-paragraph')
-const questionTitleSelector = '.questions__list-title';
-const questionParagraphSelector = '.questions__list-paragraph';
+const questionsList = Array.from(document.querySelectorAll('.questions__list-title'));
 
-let acc = document.querySelectorAll(".questions__list-item");
-let i;
+questionsList.forEach(function(question) {
+  question.addEventListener('click', function(evt) {
+    evt.target.closest('.questions__list-item')
+    .querySelector('.questions__list-paragraph')
+    .classList.toggle('questions__list-paragraph_type_active');
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function () {
-    this.closest('.questions__list-paragraph').classList.toggle("active");
-    let panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-
+    evt.target.closest('.questions__list-item')
+    .querySelector('.questions__icon')
+    .classList.toggle('questions__icon_type_active');
+  })
+})
 
