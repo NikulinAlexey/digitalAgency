@@ -1,7 +1,15 @@
 .reviews__button_type_left {
+  transform: rotate(90deg);
   background-image: url(../../../../images/arrow-left.png);
 }
 
 .reviews__button_type_left:hover {
   background-image: url(../../../../images/arrow-color-white.png);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .reviews__button_type_left {
+    transform: rotate(0deg);
+  }  
 }
