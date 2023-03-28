@@ -1,62 +1,67 @@
 const serviceItems = document.querySelectorAll('.service__marketing-item');
 const itemsBlock = document.querySelector('.service__items');
+
+const itemSelector = '.service__item';
+const templateSelector = '#elementTemplate';
+const textSelector = '.service__subtitle';
+
 const itemsInfo = [
   dev = [
     {
       text: 'Разработка интернет магазина',
-      link: './online-store-dev.html'
+      link: './online-store-dev.html',
     },
     {
       text: 'Разработка лендинга',
-      link: '#'
+      link: '#',
     },
     {
       text: 'Разработка корпоративного сайта',
-      link: '#'
+      link: '#',
     },
 
     {
       text: 'Разработка сайта-визитки',
-      link: '#'
+      link: '#',
     },
     {
       text: 'Разработка сайта-католога',
-      link: '#'
+      link: '#',
     },
     {
       text: 'Разработка брендбука',
-      link: '#'
+      link: '#',
     },
     {
       text: 'Разработка логотипа',
-      link: '#'
+      link: '#',
     }
   ],
   promotion = [
     {
       text: 'CEO продвижение сайта',
-      link: '#'
+      link: '#',
     },
     {
       text: 'Продвижение сайта за позиции',
-      link: '#'
+      link: '#',
     },
     {
       text: 'Продвижение сайта за трафик',
-      link: '#'
+      link: '#',
     },
 
     {
       text: 'Продвижение сайта за лиды',
-      link: '#'
+      link: '#',
     },
     {
       text: 'Оптимизация сайта',
-      link: '#'
+      link: '#',
     },
     {
       text: 'Раскрутка сайта',
-      link: '#'
+      link: '#',
     }
   ],
   smm = [
@@ -107,7 +112,7 @@ const itemsInfo = [
       link: '#'
     },
     {
-      text: 'Стратегия развитии',
+      text: 'Стратегия развития',
       link: '#'
     },
     {
@@ -161,68 +166,32 @@ function renderItem(item) {
   itemsBlock.append(item);
 }
 function generateItem(dataItem) {
-  const element = getTemplate('#elementTemplate', '.service__item');
+  const element = getTemplate(templateSelector, itemSelector);
   
   element.setAttribute('href', `${dataItem.link}`);
-  element.querySelector('.service__subtitle').textContent = `${dataItem.text}`;
+  element.querySelector(textSelector).textContent = `${dataItem.text}`;
 
   return element;
 }
-
 function generateStartingCards() {
   itemsInfo[0].forEach(() => {
     renderItem(generateItem(itemsInfo[0][0]));
   })
 }
 
-//Нужно сделать массив в массиве, чтобы сократить код слушателей
-//dev
-serviceItems[0].addEventListener('click', () => {
-  itemsBlock.innerHTML = '';
-  for(i = 0; itemsInfo[0].length; i++) {
-    renderItem(generateItem(itemsInfo[0][i]));
+//Функция по клику на блок шахматной фигуры берет данные из массива itemsInfo и рисует нужные карточки
+function setEventListeners() {
+  for(let i = 0; i < serviceItems.length; i++) {
+    serviceItems[i].addEventListener('click', () => {
+      itemsBlock.innerHTML = '';
+      for(j = 0; j < itemsInfo[i].length; j++) {
+        renderItem(generateItem(itemsInfo[i][j]));
+      }
+    });
   }
-});
-//promotion
-serviceItems[1].addEventListener('click', () => {
-  itemsBlock.innerHTML = '';
-  for(i = 0; itemsInfo[1].length; i++) {
-    renderItem(generateItem(itemsInfo[1][i]));
-  }
-});
-//smm
-serviceItems[2].addEventListener('click', () => {
-  itemsBlock.innerHTML = '';
-  for(i = 0; itemsInfo[2].length; i++) {
-    console.log(itemsInfo[2][i])
-    renderItem(generateItem(itemsInfo[2][i]));
-  }
-});
-//advertising
-serviceItems[3].addEventListener('click', () => {
-  itemsBlock.innerHTML = '';
-  for(i = 0; itemsInfo[3].length; i++) {
-    console.log(itemsInfo[3][i])
-    renderItem(generateItem(itemsInfo[3][i]));
-  }
-});
-//messages
-serviceItems[4].addEventListener('click', () => {
-  itemsBlock.innerHTML = '';
-  for(i = 0; itemsInfo[4].length; i++) {
-    console.log(itemsInfo[4][i])
-    renderItem(generateItem(itemsInfo[4][i]));
-  }
-});
-//marketer
-serviceItems[5].addEventListener('click', () => {
-  itemsBlock.innerHTML = '';
-  for(i = 0; itemsInfo[5].length; i++) {
-    console.log(itemsInfo[5][i])
-    renderItem(generateItem(itemsInfo[5][i]));
-  }
-});
+}
 
+setEventListeners()
 generateStartingCards()
 hightlightClickedItem()
 
