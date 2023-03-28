@@ -125,8 +125,6 @@ const itemsInfo = [
   ]
 ]
 
-
-
 //Функционал выделения нажатого элемента:
 function setActiveClass (element) {
   element.querySelector('.service__marketing-mask').classList.add('service__marketing-mask_type_active');
@@ -159,12 +157,9 @@ function getTemplate(templateSelector, itemSelector) {
  
   return serviceItem;
 }
-
 function renderItem(item) {
   itemsBlock.append(item);
 }
-
-
 function generateItem(dataItem) {
   const element = getTemplate('#elementTemplate', '.service__item');
   
@@ -180,23 +175,23 @@ function generateStartingCards() {
   })
 }
 
-
+//Нужно сделать массив в массиве, чтобы сократить код слушателей
 //dev
-serviceItems[0].addEventListener('click', (evt) => {
+serviceItems[0].addEventListener('click', () => {
   itemsBlock.innerHTML = '';
   for(i = 0; itemsInfo[0].length; i++) {
     renderItem(generateItem(itemsInfo[0][i]));
   }
 });
 //promotion
-serviceItems[1].addEventListener('click', (evt) => {
+serviceItems[1].addEventListener('click', () => {
   itemsBlock.innerHTML = '';
   for(i = 0; itemsInfo[1].length; i++) {
     renderItem(generateItem(itemsInfo[1][i]));
   }
 });
 //smm
-serviceItems[2].addEventListener('click', (evt) => {
+serviceItems[2].addEventListener('click', () => {
   itemsBlock.innerHTML = '';
   for(i = 0; itemsInfo[2].length; i++) {
     console.log(itemsInfo[2][i])
@@ -204,7 +199,7 @@ serviceItems[2].addEventListener('click', (evt) => {
   }
 });
 //advertising
-serviceItems[3].addEventListener('click', (evt) => {
+serviceItems[3].addEventListener('click', () => {
   itemsBlock.innerHTML = '';
   for(i = 0; itemsInfo[3].length; i++) {
     console.log(itemsInfo[3][i])
@@ -212,7 +207,7 @@ serviceItems[3].addEventListener('click', (evt) => {
   }
 });
 //messages
-serviceItems[4].addEventListener('click', (evt) => {
+serviceItems[4].addEventListener('click', () => {
   itemsBlock.innerHTML = '';
   for(i = 0; itemsInfo[4].length; i++) {
     console.log(itemsInfo[4][i])
@@ -220,16 +215,13 @@ serviceItems[4].addEventListener('click', (evt) => {
   }
 });
 //marketer
-serviceItems[5].addEventListener('click', (evt) => {
+serviceItems[5].addEventListener('click', () => {
   itemsBlock.innerHTML = '';
   for(i = 0; itemsInfo[5].length; i++) {
     console.log(itemsInfo[5][i])
     renderItem(generateItem(itemsInfo[5][i]));
   }
 });
-
-
-
 
 generateStartingCards()
 hightlightClickedItem()
