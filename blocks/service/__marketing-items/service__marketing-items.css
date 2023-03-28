@@ -1,0 +1,13 @@
+.service__marketing-items {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(75px,1fr));
+  grid-template-rows: max-content;
+  overflow: auto;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.service__marketing-items::-webkit-scrollbar {
+  display: none;
+}

@@ -21,7 +21,8 @@ function closePopup (popup) {
 }
 
 popups.forEach((popup) => {
-  popup.addEventListener('mousedown', (evt) => {
+  if(popup) {
+    popup.addEventListener('mousedown', (evt) => {
       if (evt.target.classList.contains('popup_opened')) {
           closePopup(popup)
       }
@@ -29,14 +30,17 @@ popups.forEach((popup) => {
         closePopup(popup)
       }
   })
+  }
 })
 
 buttonConsultation.addEventListener('click', function() {
   openPopup(popupConsultation);
 });
 
-buttonOrder.addEventListener('click', function() {
-  openPopup(popupOrder)
-});
+if(buttonOrder) {
+  buttonOrder.addEventListener('click', function() {
+    openPopup(popupOrder)
+  });
+}
 
 

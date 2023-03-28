@@ -1,0 +1,9 @@
+.service__marketing-line {
+  position: absolute;
+  top: 384px;
+  left: 8%;
+  width: calc(100% - 16%);
+  height: 10px;
+  border: none;
+  border-top: 1px solid #BB8E5D;
+}

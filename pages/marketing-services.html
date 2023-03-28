@@ -70,54 +70,62 @@
 
       <section class="service">
         <div class="service__container">
-          <div class="service__intro service__intro_type_licencing">
-            <div class="service__mask">
-              <h1 class="service__title typography__heading_type_third">Маркетинговые услуги</h1>
+          <div class="service__marketing-service">
+            <h1 class="service__title typography__heading_type_third">Маркетинговые услуги</h1>
+            <div class="service__marketing-items">
+              <div class="service__marketing-line"></div>
+              <div class="service__marketing-item">
+                <div class="service__marketing-image-block">
+                  <div class="service__marketing-mask service__marketing-mask_type_active"></div>
+                  <img src="../images/service-dev.png" alt="Шахматная фигура" class="service__marketing_image">
+                </div>
+                <div class="service__circle service__circle_type_active"></div>
+                <h2 class="service__marketing-subtitle service__marketing-subtitle_type_active typography__text_type_button">Разработка</h2>
+              </div>
+              <div class="service__marketing-item">
+                <div class="service__marketing-image-block">
+                  <div class="service__marketing-mask"></div>
+                  <img src="../images/service-prodvizjeniye.png" alt="Шахматная фигура" class="service__marketing_image">
+                </div>
+                <div class="service__circle"></div>
+                <h2 class="service__marketing-subtitle typography__text_type_button">Продвижение сайта</h2>
+              </div>
+              <div class="service__marketing-item">
+                <div class="service__marketing-image-block">
+                  <div class="service__marketing-mask"></div>
+                  <img src="../images/service-smm.png" alt="Шахматная фигура" class="service__marketing_image">
+                </div>
+                <div class="service__circle"></div>
+                <h2 class="service__marketing-subtitle typography__text_type_button">СММ</h2>
+              </div>
+              <div class="service__marketing-item">
+                <div class="service__marketing-image-block">
+                  <div class="service__marketing-mask"></div>
+                  <img src="../images/service-context-adv.png" alt="Шахматная фигура" class="service__marketing_image">
+                </div>
+                <div class="service__circle"></div>
+                <h2 class="service__marketing-subtitle typography__text_type_button">Контекстная реклама</h2>
+              </div>
+              <div class="service__marketing-item">
+                <div class="service__marketing-image-block">
+                  <div class="service__marketing-mask"></div>
+                  <img src="../images/service-messaging.png" alt="Шахматная фигура" class="service__marketing_image">
+                </div>
+                <div class="service__circle"></div>
+                <h2 class="service__marketing-subtitle typography__text_type_button">Рассылка (массовое оповещение)</h2>
+              </div>
+              <div class="service__marketing-item">
+                <div class="service__marketing-image-block">
+                  <div class="service__marketing-mask"></div>
+                  <img src="../images/service-marketolog.png" alt="Шахматная фигура" class="service__marketing_image">
+                </div>
+                <div class="service__circle"></div>
+                <h2 class="service__marketing-subtitle typography__text_type_button">Маркетолог</h2>
+              </div>
             </div>
           </div>
           <div class="service__items">
-            <a href="./online-store-dev.html" class="service__item">
-              <div class="service__item-info">
-                <div class="service__icon"></div>
-                <h3 class="service__subtitle typography__text_type_question-answer">Разработка интернет магазина</h3>
-              </div>
-            </a>
-            <a href="#" class="service__item">
-              <div class="service__item-info">
-                <div class="service__icon"></div>
-                <h3 class="service__subtitle typography__text_type_question-answer">Разработка лендинга</h3>
-              </div>
-            </a>
-            <a href="#" class="service__item">
-              <div class="service__item-info">
-                <div class="service__icon"></div>
-                <h3 class="service__subtitle typography__text_type_question-answer">Разработка корпоративного сайта</h3>
-              </div>
-            </a>
-            <a href="#" class="service__item">
-              <div class="service__item-info">
-                <div class="service__icon"></div>
-                <h3 class="service__subtitle typography__text_type_question-answer">Разработка сайта визитки</h3>
-              </div>
-            </a>
-            <a href="#" class="service__item">
-              <div class="service__item-info">
-                <div class="service__icon"></div>
-                <h3 class="service__subtitle typography__text_type_question-answer">Разработка сайта католога</h3>
-              </div>
-            </a>
-            <a href="#" class="service__item">
-              <div class="service__item-info">
-                <div class="service__icon"></div>
-                <h3 class="service__subtitle typography__text_type_question-answer">Разработка бренд бука</h3>
-              </div>
-            </a>
-            <a href="#" class="service__item">
-              <div class="service__item-info">
-                <div class="service__icon"></div>
-                <h3 class="service__subtitle typography__text_type_question-answer">Разработка логотипа</h3>
-              </div>
-            </a>
+            
           </div>
         </div>
       </section>
@@ -593,6 +601,15 @@
     </footer>
   
   </div>
+  <template id="elementTemplate">
+    <a href="" class="service__item">
+      <div class="service__item-info">
+        <div class="service__icon"></div>
+        <h3 class="service__subtitle typography__text_type_question-answer">123</h3>
+      </div>
+    </a>
+  </template>
+
   <div class="popup popup_type_order">
     <div class="popup__container popup__container_type_order">
       <div class="popup__close-icon popup__close-icon_type_order hover-element"></div>
@@ -634,6 +651,7 @@
   </div>
   
   <script src="../js/libs/jquery-3.6.3.min.js"></script>
+  <script src="../js/service-items.js"></script>
   <script src="../js/popup.js"></script>
   <script src="../js/calculator.js"></script>
   <script src="../js/search.js"></script>

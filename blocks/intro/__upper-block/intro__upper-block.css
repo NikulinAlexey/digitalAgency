@@ -11,7 +11,7 @@
   box-sizing:border-box;
   padding-top: 100px;
   transition: all .3s ease-in-out;
-  animation: bg-change 20s linear infinite alternate-reverse;
+  animation: bg-change 10s linear infinite alternate-reverse;
 }
 
 @keyframes bg-change {

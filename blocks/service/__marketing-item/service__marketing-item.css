@@ -1,0 +1,10 @@
+.service__marketing-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service__marketing-item:hover {
+  cursor: pointer;
+}

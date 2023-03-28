@@ -231,6 +231,17 @@
 @import url(../blocks/service/__item-info/service__item-info.css);
 @import url(../blocks/service/__icon/service__icon.css);
 @import url(../blocks/service/__subtitle/service__subtitle.css);
+@import url(../blocks/service/__marketing-items/service__marketing-items.css);
+@import url(../blocks/service/__marketing-item/service__marketing-item.css);
+@import url(../blocks/service/__marketing_image/service__marketing_image.css);
+@import url(../blocks/service/__circle/service__circle.css);
+@import url(../blocks/service/__marketing-subtitle/service__marketing-subtitle.css);
+@import url(../blocks/service/__marketing-subtitle/_type/service__marketing-subtitle_type_active.css);
+@import url(../blocks/service/__circle/_type/service__circle_type_active.css);
+@import url(../blocks/service/__marketing-mask/service__marketing-mask.css);
+@import url(../blocks/service/__marketing-mask/_type/service__marketing-mask_type_active.css);
+@import url(../blocks/service/__marketing-image-block/service__marketing-image-block.css);
+@import url(../blocks/service/__marketing-line/service__marketing-line.css);
 
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__container/portfolio__container.css);

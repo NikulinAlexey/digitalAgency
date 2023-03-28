@@ -49,7 +49,7 @@
 
   .header__burger.active::after {
     transform: rotate(-45deg);
-    bottom: 13.5px;
+    bottom: 13px;
   }
 
   .header__burger.active span {
