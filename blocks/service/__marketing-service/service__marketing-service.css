@@ -1,0 +1,16 @@
+.service__marketing-service {
+  width: 1680px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1830px) {
+  .service__marketing-service {
+    width: 100%;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .service__marketing-service {
+    width: calc(100% - 20px);
+    margin: 0 0 0 20px;
+  }
+}

@@ -1,3 +1,9 @@
 .service__circle_type_active {
   background-size: 20px 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .service__circle_type_active {
+    background-size: 14px 14px;
+  }
+}

@@ -1,6 +1,7 @@
 .service__subtitle {
   margin: 0;
   max-width: 350px;
+  transition: all .3s ease-in-out;
 }
 
 @media screen and (max-width: 650px) {

@@ -6,4 +6,30 @@
   height: 10px;
   border: none;
   border-top: 1px solid #BB8E5D;
+  transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 1680px) {
+  .service__marketing-line {
+    top: 310px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .service__marketing-line {
+    top: 280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service__marketing-line {
+    top: 276.5px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .service__marketing-line {
+    width: 505px;
+    left: 50.5px;
+  }
 }

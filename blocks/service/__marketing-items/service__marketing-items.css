@@ -1,6 +1,6 @@
 .service__marketing-items {
   display: grid;
-  grid-template-columns: repeat(6, minmax(75px,1fr));
+  grid-template-columns: repeat(6, minmax(101px,1fr));
   grid-template-rows: max-content;
   overflow: auto;
   margin-bottom: 100px;
@@ -11,3 +11,11 @@
 .service__marketing-items::-webkit-scrollbar {
   display: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .service__marketing-items {
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+}
+

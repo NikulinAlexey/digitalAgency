@@ -38,13 +38,13 @@
     left: 7px;
     width: 14px;
     height: 1px;
-    top: 13px;
+    top: 14px;
     transition: all .3s ease-in-out;
   }
 
   .header__burger.active:before {
     transform: rotate(45deg);
-    top: 13px;
+    top: 14px;
   }
 
   .header__burger.active::after {

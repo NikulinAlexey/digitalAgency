@@ -10,3 +10,12 @@
   margin-bottom: 35px;
   transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width: 768px) {
+  .service__circle {
+    width: 14px;
+    height: 14px;
+    background-size: 8px 8px;
+  }
+}
+  
