@@ -172,6 +172,7 @@
 @import url(../blocks/popup/__info/popup__info.css);
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__title/_type/popup__title_type_order.css);
+@import url(../blocks/popup/__title/_type/popup__title_type_consultation.css);
 @import url(../blocks/popup/__paragraph/popup__paragraph.css);
 @import url(../blocks/popup/__submit/popup__submit.css);
 @import url(../blocks/popup/__input/popup__input.css);
@@ -179,6 +180,10 @@
 @import url(../blocks/popup/__form-order/popup__form-order.css);
 @import url(../blocks/popup/__image-block/_type/popup__image-block_type_order.css);
 @import url(../blocks/popup/__subparagraph/popup__subparagraph.css);
+@import url(../blocks/popup/__close-icon/_type/popup__close-icon_type_order.css);
+@import url(../blocks/popup/__container-mask/popup__container-mask.css);
+@import url(../blocks/popup/__container-image/popup__container-image.css);
+@import url(../blocks/popup/__form-consultation/popup__form-consultation.css);
 
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/_type/navigation_type_calculator.css);

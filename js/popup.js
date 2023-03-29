@@ -1,5 +1,6 @@
 const buttonConsultation = document.querySelector('.consultations__button');
-const buttonOrder = document.querySelector('.process__button');
+const buttonOrder = document.querySelector('.rolling-icon');
+const buttonOrderSubmit = document.querySelector('.popup__submit_type_order')
 
 const popupConsultation = document.querySelector('.popup_type_consultation');
 const popupOrder = document.querySelector('.popup_type_order')
@@ -34,13 +35,12 @@ popups.forEach((popup) => {
 })
 
 buttonConsultation.addEventListener('click', function() {
-  openPopup(popupConsultation);
+  openPopup(popupOrder);
 });
+buttonOrder.addEventListener('click', function() {
+  openPopup(popupConsultation)
+})
 
-if(buttonOrder) {
-  buttonOrder.addEventListener('click', function() {
-    openPopup(popupOrder)
-  });
-}
+
 
 

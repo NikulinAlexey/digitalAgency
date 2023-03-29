@@ -12,7 +12,6 @@
   text-decoration: none;
   color: #fff;
   opacity: 1;
-  transition: opacity .3s ease-in-out;
 }
 
 .service__item:hover {

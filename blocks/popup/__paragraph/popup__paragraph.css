@@ -17,7 +17,6 @@
 
 @media screen and (max-width: 800px) {
   .popup__paragraph{
-    margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
   }

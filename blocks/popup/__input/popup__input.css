@@ -19,3 +19,9 @@
 .popup__input:first-of-type {
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .popup__input {
+    margin-top: 15px;
+  }
+}

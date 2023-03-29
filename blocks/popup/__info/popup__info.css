@@ -1,11 +1,11 @@
 .popup__info {
-  width: 100%;
+  
   margin: 35px 40px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .popup__info{
     width: calc(100% - 40px);
-    margin: 20px;
+    margin: 0 20px 20px;
   }
 }

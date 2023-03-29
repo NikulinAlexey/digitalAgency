@@ -1,3 +1,27 @@
 .popup__container_type_consultation {
-  
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content;
+  transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .popup__container_type_consultation {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .popup__container_type_consultation {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px min-content;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .popup__container_type_consultation {
+    grid-template-rows: 280px min-content;
+  }
 }

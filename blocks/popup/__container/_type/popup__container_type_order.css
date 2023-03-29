@@ -1,3 +1,14 @@
 .popup__container_type_order {
-  
+  width: 536px;
+  background: url(../../../../images/popup-order-image.png);
+  background-color: rgba(10, 25, 33, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__container_type_order {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+  }
 }

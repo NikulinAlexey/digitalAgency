@@ -1,0 +1,9 @@
+.popup__title_type_consultation {
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .popup__title_type_consultation {
+    font-size: 20px;
+  }
+}
