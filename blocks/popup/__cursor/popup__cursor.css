@@ -6,17 +6,61 @@
   background-size: contain;
   position: absolute;
   top: calc((100% - 25px) / 2);
-  right: -10px;
+  left: calc(50% - 10px);
+  transition: all .3s ease-in-out;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .popup__cursor {
-    width: 30px;
-    height: 20px;
-    top: calc(100% - 30px);
-    right: calc((100% - 30px) / 2);
-    transform: rotate(90deg);
-    
-    
+    width: 20px;
+    height: 15px;
+    top: calc(25%);
+    left: calc(50% + 145px);  
   }
 }
+
+@media screen and (max-width: 650px) {
+  .popup__cursor {
+    width: 20px;
+    height: 15px;
+    top: calc(25%);
+    left: calc(50% + 135px);  
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .popup__cursor {
+    left: calc(100% - 80px);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .popup__cursor {
+    left: calc(100% - 70px);
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .popup__cursor {
+    left: calc(100% - 60px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .popup__cursor {
+    left: calc(100% - 50px);
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .popup__cursor {
+    left: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .popup__cursor {
+    left: calc(100% - 30px);
+  }
+}
+

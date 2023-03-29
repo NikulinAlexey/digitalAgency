@@ -4,6 +4,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: min-content;
   transition: all .3s ease-in-out;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {

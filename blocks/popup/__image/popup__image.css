@@ -12,4 +12,9 @@
   }
 }
 
+@media screen and (max-width: 430px) {
+  .popup__image {
+    margin: 0;
+  }
+}
 

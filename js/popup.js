@@ -1,8 +1,11 @@
-const buttonConsultation = document.querySelector('.consultations__button');
-const buttonOrder = document.querySelector('.rolling-icon');
-const buttonOrderSubmit = document.querySelector('.popup__submit_type_order')
+const buttonOpenConsultationPopup = document.querySelector('.consultations__button');
+const buttonOpenOrderPopup = document.querySelector('.rolling-icon');
+
+const buttonSubmitOrder = document.querySelector('.popup__submit_type_order')
+const buttonSubmitConsultation = document.querySelector('.popup__submit_type_consultation');
 
 const popupConsultation = document.querySelector('.popup_type_consultation');
+const popupConsultationImage = popupConsultation.querySelector('.popup__image');
 const popupOrder = document.querySelector('.popup_type_order')
 const popups = document.querySelectorAll('.popup');
 
@@ -34,11 +37,30 @@ popups.forEach((popup) => {
   }
 })
 
-buttonConsultation.addEventListener('click', function() {
+buttonOpenConsultationPopup.addEventListener('click', function() {
   openPopup(popupOrder);
 });
-buttonOrder.addEventListener('click', function() {
+buttonOpenOrderPopup.addEventListener('click', function() {
   openPopup(popupConsultation)
+})
+
+buttonSubmitConsultation.addEventListener('click', (evt) => {
+  evt.preventDefault();
+  
+  
+  popupConsultationImage.animate(
+    [
+      {
+        // from
+        transform: "rotate(0)", easing: "ease-in-out" 
+      },
+      {
+        // to
+        transform: "rotate(360deg)", easing: "ease-in-out"
+      },
+    ],
+    2500
+  );
 })
 
 
