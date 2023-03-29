@@ -179,7 +179,7 @@ function generateStartingCards() {
   })
 }
 
-//Функция по клику на блок шахматной фигуры берет данные из массива itemsInfo и рисует нужные карточки
+//Навешиваем на все блоки шахматных фигур слушатели клика. По клику на блок фигуры функция берет данные из массива itemsInfo и рисует нужные карточки
 function setEventListeners() {
   for(let i = 0; i < serviceItems.length; i++) {
     serviceItems[i].addEventListener('click', () => {
