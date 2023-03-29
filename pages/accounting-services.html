@@ -546,6 +546,8 @@
           </div>
         </div>
       </section>
+
+      <div class="rolling-icon hover-element"></div>
     </main>
 
     <footer class="footer">
@@ -587,18 +589,17 @@
     </footer>
   
   </div>
+  
   <div class="popup popup_type_order">
     <div class="popup__container popup__container_type_order">
       <div class="popup__close-icon popup__close-icon_type_order hover-element"></div>
-      <div class="popup__image-block popup__image-block_type_order">
-        <img src="./images/popup-order-image.png" alt="Фото шахматной фигуры" class="popup__image popup__image_type_order">
-      </div>
+      <div class="popup__container-mask"></div>
       <form class="popup__form-order" action="submit">
         <h2 class="popup__title popup__title_type_order">Заказать проект</h2>
         <input type="text" class="popup__input" placeholder="Ваше имя*" minlength="2" maxlength="200">
         <input type="text" class="popup__input" placeholder="Телефон*" minlength="11" maxlength="20">
         <input type="email" class="popup__input" placeholder="Email">
-        <button class="popup__submit typography__text_type_button hover-element_type_button" type="submit">Отправить</button>
+        <button class="popup__submit popup__submit_type_order typography__text_type_button hover-element_type_button" type="submit">Отправить</button>
         <p class="popup__subparagraph">Нажимая на кнопку "Отправить", вы даете согласие на обработку своих <a href="#" class="process__accent  hover-element">персональных данных</a> 
           и соглашаетесь с политикой .
         </p>
@@ -608,19 +609,17 @@
 
   <div class="popup popup_type_consultation">
     <div class="popup__container popup__container_type_consultation">
+      <div class="popup__cursor"></div>
       <div class="popup__close-icon popup__close-icon_type_consultation hover-element"></div>
-      <div class="popup__image-block">
-        <img src="../images/popup-consultation-image.png" alt="Колесо скидок" class="popup__image popup__image_type_consultation">
-        <div class="popup__cursor"></div>
-      </div>
+      <img  src="../images/popup-consultation-image.png" alt="" class="popup__image">
       <div class="popup__info">
-        <h2 class="popup__title">Испытай удачу !</h2>
+        <h2 class="popup__title popup__title_type_consultation">Испытай удачу !</h2>
         <p class="popup__paragraph">Вращайте колесо !
           И получи дополнтительную скидку для вашего будущего проекта.
         </p>
         <form action="submit" class="popup__form-consultation">
           <input type="text" class="popup__input" placeholder="+7 (000) 000-00-00">
-          <button class="popup__submit typography__text_type_button hover-element_type_button">Вращать колесо</button>
+          <button class="popup__submit popup__submit_type_consultation typography__text_type_button hover-element_type_button">Вращать колесо</button>
         </form>
       </div>
 
