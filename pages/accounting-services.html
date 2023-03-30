@@ -57,7 +57,7 @@
         <div class="header__burger hover-element">
           <span></span>
         </div>
-        <div class="header__phone">+7(999) 123-45-67</div>
+        <a href="tel:+79991234567" class="header__phone">+7(999) 123-45-67</a>
       </div>
     </header>
  
@@ -597,7 +597,7 @@
       <form class="popup__form-order" action="submit">
         <h2 class="popup__title popup__title_type_order">Заказать проект</h2>
         <input type="text" class="popup__input" placeholder="Ваше имя*" minlength="2" maxlength="200">
-        <input type="text" class="popup__input" placeholder="Телефон*" minlength="11" maxlength="20">
+        <input type="text" class="popup__input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" placeholder="Телефон*" minlength="11" maxlength="20">
         <input type="email" class="popup__input" placeholder="Email">
         <button class="popup__submit popup__submit_type_order typography__text_type_button hover-element_type_button" type="submit">Отправить</button>
         <p class="popup__subparagraph">Нажимая на кнопку "Отправить", вы даете согласие на обработку своих <a href="#" class="process__accent  hover-element">персональных данных</a> 
@@ -618,7 +618,7 @@
           И получи дополнтительную скидку для вашего будущего проекта.
         </p>
         <form action="submit" class="popup__form-consultation">
-          <input type="text" class="popup__input" placeholder="+7 (000) 000-00-00">
+          <input type="text" class="popup__input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" placeholder="+7 (000) 000-00-00">
           <button class="popup__submit popup__submit_type_consultation typography__text_type_button hover-element_type_button">Вращать колесо</button>
         </form>
       </div>

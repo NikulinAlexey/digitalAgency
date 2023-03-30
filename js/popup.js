@@ -25,16 +25,14 @@ function closePopup (popup) {
 }
 
 popups.forEach((popup) => {
-  if(popup) {
-    popup.addEventListener('mousedown', (evt) => {
-      if (evt.target.classList.contains('popup_opened')) {
-          closePopup(popup)
-      }
-      if (evt.target.classList.contains('popup__close-icon')) {
-        closePopup(popup)
-      }
+  popup.addEventListener('mousedown', (evt) => {
+    if (evt.target.classList.contains('popup_opened')) {
+      closePopup(popup);
+    }
+    if (evt.target.classList.contains('popup__close-icon')) {
+      closePopup(popup);
+    }
   })
-  }
 })
 
 buttonOpenConsultationPopup.addEventListener('click', function() {
@@ -46,7 +44,6 @@ buttonOpenOrderPopup.addEventListener('click', function() {
 
 buttonSubmitConsultation.addEventListener('click', (evt) => {
   evt.preventDefault();
-  
   
   popupConsultationImage.animate(
     [
@@ -62,7 +59,3 @@ buttonSubmitConsultation.addEventListener('click', (evt) => {
     2500
   );
 })
-
-
-
-
