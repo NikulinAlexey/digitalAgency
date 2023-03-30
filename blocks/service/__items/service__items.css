@@ -11,7 +11,8 @@
 @media screen and (max-width: 1280px) {
   .service__items {
     gap: 30px;
-    grid-template-rows: repeat(3, 150px);
+    grid-template-rows: 150px;
+    grid-auto-rows: 150px;
   }
 }
 
@@ -24,7 +25,7 @@
 @media screen and (max-width: 900px) {
   .service__items {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 130px);
+    grid-template-rows: 130px;
     grid-auto-rows: 130px;
     gap: 10px;
   }
@@ -39,7 +40,7 @@
 
 @media screen and (max-width: 650px) {
   .service__items {
-    grid-template-rows: repeat(1, 100px);
+    grid-template-rows:  100px;
     grid-auto-rows: 100px;
   }
 }
