@@ -1,11 +1,25 @@
 .contacts-map {
   margin: 0 0 100px 0;
   width: 100%;
-  object-fit: cover;
+  height: 700px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1280px) {
+  .contacts-map {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts-map {
+    height: 350px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .contacts-map {
+    height: 240px;
     min-height: 240px;
     margin-bottom: 40px;
   }

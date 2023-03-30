@@ -7,6 +7,7 @@
   text-transform: capitalize;
   padding-bottom: 4px;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .header__phone:after {

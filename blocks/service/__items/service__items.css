@@ -1,7 +1,7 @@
 .service__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 200px);
+  grid-template-rows: 200px;
   gap: 40px;
   grid-auto-flow: row;
   width: 100%;
