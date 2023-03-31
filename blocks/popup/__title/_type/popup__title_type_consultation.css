@@ -7,3 +7,9 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .popup__title_type_consultation {
+    margin-top: 10px;
+  }
+}

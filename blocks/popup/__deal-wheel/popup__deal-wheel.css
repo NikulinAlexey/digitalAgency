@@ -45,7 +45,12 @@
   .popup__deal-wheel {
     --size: clamp(250px, 30vmin, 500px);
     padding-right: 30px;
-    padding-top: 30px;
+    padding-top: 40px;
   }
 }
 
+@media screen and (max-width: 430px) {
+  .popup__deal-wheel {
+    padding-right: 45px;
+  }
+}

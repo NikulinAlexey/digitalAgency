@@ -18,3 +18,9 @@
     left: calc(100% - 25px);
   }
 }
+
+@media screen and (max-width: 430px) {
+  .popup__ticker {
+    left: calc(100% - 40px);
+  }
+}
