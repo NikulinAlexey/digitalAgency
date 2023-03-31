@@ -1,0 +1,43 @@
+/* сектор колеса */
+.popup__spinner {
+  /* добавляем относительное позиционирование */
+  position: relative;
+  /* подключаем сетку */
+  display: grid;
+  /* выравниваем всё по центру */
+  align-items: center;
+  /* добавляем элемент в сетку */
+  grid-template-areas: "spinner";
+  /* устанавливаем размеры */
+  width: var(--size);
+  height: var(--size);
+  /* поворачиваем элемент  */
+  transform: rotate(calc(var(--rotate, 25) * 1deg));
+  /* рисуем круглую обводку, а всё, что не поместится, — будет скрыто за кругом */
+  border-radius: 50%;
+  padding: 0;
+  border: 8px solid #BB8E5D;
+};
+/* всё, что внутри этого блока, будет находиться в области сетки с названием spinner */
+.popup__spinner * {
+  grid-area: spinner;
+}
+
+/* анимация вращения */
+.is-spinning .popup__spinner {
+  transition: transform 8s cubic-bezier(0.1, -0.01, 0, 1);
+}
+
+/* анимация движения язычка */
+.is-spinning .popup__ticker {
+          animation: tick 700ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+
+/* эффект, когда колесо задевает язычок при вращении */
+@keyframes tick {
+  40% {
+    /* чуть поворачиваем язычок наверх в середине анимации */
+    transform: rotate(20deg);
+  }
+}

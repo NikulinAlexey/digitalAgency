@@ -1,0 +1,8 @@
+.popup__elipse {
+  width: 10px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  box-sizing: border-box;
+}

@@ -1,0 +1,58 @@
+/* текст на секторах */
+.popup__prize {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  /* включаем «гибкую» вёрстку */
+  display: flex;
+  align-items: center;
+  /* задаём отступы от краёв блока */
+  padding: 0 calc(var(--size) / 6) 0 calc(var(--size) / 20);
+  /* устанавливаем размеры */
+  width: 20%;
+  height: 20%;
+  /* устанавливаем координаты, относительно которых будем вращать текст */
+  transform-origin: center right;
+  /* поворачиваем текст */
+  transform: rotate(var(--rotate));
+  /* запрещаем пользователю выделять мышкой текст на секторах */
+  user-select: none;
+  color: #000;
+}
+
+.popup__prize:nth-of-type(2n) {
+  color: #fff;
+}
+
+/* анимируем выпавший сектор */
+.popup__prize.selected .text {
+  /* делаем текст белым */
+  color: #BB8E5D;
+  /* настраиваем длительность анимации */
+  animation: selected 800ms ease;
+}
+
+/* настраиваем анимацию текста на выпавшем секторе по кадрам */
+@keyframes selected {
+  /* что происходит на 25% от начала анимации */
+  25% {
+    /* увеличиваем текст в 1,25 раза */
+    transform: scale(1.25);
+    /* добавляем тексту тень */
+    text-shadow: 1vmin 1vmin 0 hsla(0 0% 0% / 0.1);
+  }
+  40% {
+    transform: scale(0.92);
+    text-shadow: 0 0 0 hsla(0 0% 0% / 0.2);
+  }
+  60% {
+    transform: scale(1.02);
+    text-shadow: 0.5vmin 0.5vmin 0 hsla(0 0% 0% / 0.1);
+  }
+  75% {
+    transform: scale(0.98);
+  }
+  85% {
+    transform: scale(1);
+  }
+}

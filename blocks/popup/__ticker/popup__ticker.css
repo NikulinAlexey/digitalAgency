@@ -1,0 +1,11 @@
+.popup__ticker {
+  position: absolute;
+  top: 50%;
+  left: calc(500px + 10px);
+  width: 34px;
+  height: 25px;
+  background-image: url(../../../images/cursor-icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform-origin: center right;
+}

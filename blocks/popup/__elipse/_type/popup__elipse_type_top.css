@@ -1,0 +1,5 @@
+.popup__elipse_type_top {
+  background-image: url(../../../../images/spinner-elipse.png);
+  top: -22px;
+  right: calc(50% - 5px);
+}

@@ -1,10 +1,12 @@
 .popup__container_type_consultation {
+  position: relative;
   width: 960px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: min-content;
   transition: all .3s ease-in-out;
   overflow: hidden;
+  place-items: center;
 }
 
 @media screen and (max-width: 1024px) {

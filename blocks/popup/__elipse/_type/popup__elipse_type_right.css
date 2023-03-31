@@ -1,0 +1,6 @@
+.popup__elipse_type_right {
+  background-image: url(../../../../images/spinner-elipse.png);
+  transform: rotate(90deg);
+  top: calc(50% - 9px);
+  right: -18px;
+}

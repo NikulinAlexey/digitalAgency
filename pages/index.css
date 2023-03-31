@@ -168,7 +168,6 @@
 @import url(../blocks/popup/__image/popup__image.css);
 @import url(../blocks/popup/__image/_type/popup__image_type_consultation.css);
 @import url(../blocks/popup/__image/_type/popup__image_type_order.css);
-@import url(../blocks/popup/__cursor/popup__cursor.css);
 @import url(../blocks/popup/__info/popup__info.css);
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__title/_type/popup__title_type_order.css);
@@ -184,6 +183,16 @@
 @import url(../blocks/popup/__container-mask/popup__container-mask.css);
 @import url(../blocks/popup/__container-image/popup__container-image.css);
 @import url(../blocks/popup/__form-consultation/popup__form-consultation.css);
+/* Cтили колеса удачи */
+@import url(../blocks/popup/__deal-wheel/popup__deal-wheel.css);
+@import url(../blocks/popup/__spinner/popup__spinner.css);
+@import url(../blocks/popup/__ticker/popup__ticker.css);
+@import url(../blocks/popup/__prize/popup__prize.css);
+@import url(../blocks/popup/__elipse/popup__elipse.css);
+@import url(../blocks/popup/__elipse/_type/popup__elipse_type_top.css);
+@import url(../blocks/popup/__elipse/_type/popup__elipse_type_right.css);
+@import url(../blocks/popup/__elipse/_type/popup__elipse_type_bottom.css);
+@import url(../blocks/popup/__elipse/_type/popup__elipse_type_left.css);
 
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/_type/navigation_type_calculator.css);
