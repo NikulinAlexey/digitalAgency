@@ -131,6 +131,8 @@
       <div class="contacts-map">
         <script  type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9d819837c5677dc966826b5cf9cf85067cda03d8e3a2842e583a3b4a0318782b&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
       </div>
+
+      <div class="rolling-icon hover-element"></div>
       </main>
 
     <footer class="footer">
@@ -172,8 +174,55 @@
     </footer>
   
   </div>
+  <div style="display: none;" class="consultations__button typography__text_type_button hover-element_type_button">бесплатная консультация</div>
+  <div class="popup popup_type_order">
+    <div class="popup__container popup__container_type_order">
+      <div class="popup__close-icon popup__close-icon_type_order hover-element"></div>
+      <div class="popup__container-mask"></div>
+      <form class="popup__form-order" action="submit">
+        <h2 class="popup__title popup__title_type_order">Заказать проект</h2>
+        <input type="text" class="popup__input" placeholder="Ваше имя*" minlength="2" maxlength="200" required>
+        <input type="tel" class="popup__input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" placeholder="Телефон*" minlength="5" maxlength="20" required>
+        <input type="email" class="popup__input" placeholder="Email" required>
+        <button class="popup__submit popup__submit_type_order typography__text_type_button hover-element_type_button" type="submit">Отправить</button>
+        <p class="popup__subparagraph">Нажимая на кнопку "Отправить", вы даете согласие на обработку своих <a href="#" class="process__accent  hover-element">персональных данных</a> 
+          и соглашаетесь с политикой .
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup_type_consultation">
+    <div class="popup__container popup__container_type_consultation">
+      <div class="popup__close-icon popup__close-icon_type_consultation hover-element"></div>
+
+      <!--главный блок-->
+      <div class="popup__deal-wheel">
+        <ul class="popup__spinner">
+          <div class="popup__elipse popup__elipse_type_top"></div>
+          <div class="popup__elipse popup__elipse_type_right"></div>
+          <div class="popup__elipse popup__elipse_type_bottom"></div>
+          <div class="popup__elipse popup__elipse_type_left"></div>
+        </ul>
+        <!-- язычок барабана -->
+        <div class="popup__ticker"></div>
+      </div>
+
+      <div class="popup__info">
+        <h2 class="popup__title popup__title_type_consultation">Испытай удачу !</h2>
+        <p class="popup__paragraph">Вращайте колесо !
+          И получи дополнтительную скидку для вашего будущего проекта.
+        </p>
+        <form action="submit" class="popup__form-consultation">
+          <input type="text" class="popup__input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" placeholder="+7 (000) 000-00-00">
+          <button class="popup__submit popup__submit_type_consultation typography__text_type_button hover-element_type_button">Вращать колесо</button>
+        </form>
+      </div>
+    </div>
+  </div>
   
   <script src="../js/libs/jquery-3.6.3.min.js"></script>
+  <script src="../js/popup.js"></script>
   <script src="../js/index.js"></script>
 </body>
 
