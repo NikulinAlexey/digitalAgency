@@ -35,7 +35,7 @@
 @import url(../blocks/header/__info-block/header__info-block.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link-icon/header__link-icon.css);
-@import url(../blocks/header/__link-icon/_type/header__link-icon_type_instagram.css);
+@import url(../blocks/header/__link-icon/_type/header__link-icon_type_vk.css);
 @import url(../blocks/header/__link-icon/_type/header__link-icon_type_telegram.css);
 @import url(../blocks/header/__link-icon/_type/header__link-icon_type_wa.css);
 @import url(../blocks/header/__text/header__text.css);
