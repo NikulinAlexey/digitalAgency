@@ -1,6 +1,6 @@
 .popup__ticker {
   position: absolute;
-  top: 50%;
+  top: calc(50% - 12.5px);
   left: calc(500px + 10px);
   width: 34px;
   height: 25px;

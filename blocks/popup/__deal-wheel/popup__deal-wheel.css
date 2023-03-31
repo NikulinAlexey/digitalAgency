@@ -14,7 +14,7 @@
   /* добавляем позиционирование относительно других элементов */
   position: relative;
   /* подключаем стандартную CSS-сетку */
-  display: grid;
+  display: flex;
   grid-gap: calc(var(--size) / 20);
   /* выравниваем содержимое блока по центру */
   align-items: center;
