@@ -3,3 +3,10 @@
   bottom: -22px;
   right: calc(50% - 5px);
 }
+
+@media screen and (max-width: 768px) {
+  .popup__elipse_type_bottom {
+    bottom: -14px;
+    right: calc(50% - 4px);
+  }
+}

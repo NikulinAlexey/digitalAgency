@@ -1,14 +1,15 @@
+// создаем переменные для открытия / закрытия popup-ов
 const buttonOpenConsultationPopup = document.querySelector('.consultations__button');
 const buttonOpenOrderPopup = document.querySelector('.rolling-icon');
 
-const buttonSubmitOrder = document.querySelector('.popup__submit_type_order')
 const buttonSubmitConsultation = document.querySelector('.popup__submit_type_consultation');
+const buttonSubmitOrder = document.querySelector('.popup__submit_type_order');
 
-const popupConsultation = document.querySelector('.popup_type_consultation');
-const popupOrder = document.querySelector('.popup_type_order')
 const popups = document.querySelectorAll('.popup');
+const popupConsultation = document.querySelector('.popup_type_consultation');
+const popupOrder = document.querySelector('.popup_type_order');
 
-// создаём переменные для быстрого доступа ко всем объектам на странице — блоку в целом, колесу, кнопке и язычку
+// создаём переменные для "колеса фортуны"
 const wheel = document.querySelector(".popup__deal-wheel");
 const spinner = wheel.querySelector(".popup__spinner");
 const trigger = document.querySelector(".popup__submit_type_consultation");
@@ -33,7 +34,6 @@ const prizes = [
     color: "#0A1921",
   }
 ];
-
 // на сколько секторов нарезаем круг
 const prizeSlice = 360 / prizes.length;
 // на какое расстояние смещаем сектора друг относительно друга
@@ -53,6 +53,8 @@ let currentSlice = 0;
 // переменная для текстовых подписей
 let prizeNodes;
 
+//------------------------------------------------ функции для "колеса фортуны":
+
 // расставляем текст по секторам
 const createPrizeNodes = () => {
   // обрабатываем каждую подпись
@@ -69,7 +71,6 @@ const createPrizeNodes = () => {
     );
   });
 };
-
 // рисуем разноцветные секторы
 const createConicGradient = () => {
   // устанавливаем нужное значение стиля у элемента spinner
@@ -95,9 +96,6 @@ const setupWheel = () => {
   // а потом мы получим список всех призов на странице, чтобы работать с ними как с объектами
   prizeNodes = wheel.querySelectorAll(".popup__prize");
 };
-
-// подготавливаем всё к первому запуску
-setupWheel();
 
 // функция запуска вращения с плавной остановкой
 const spinertia = (min, max) => {
@@ -144,7 +142,7 @@ const runTickerAnimation = () => {
     // убираем анимацию язычка
     ticker.style.animation = "none";
     // и через 10 миллисекунд отменяем это, чтобы он вернулся в первоначальное положение
-    setTimeout(() => ticker.style.animation = null, 10);
+    setTimeout(() => ticker.style.animation = null, 5);
     // после того как язычок прошёл сектор — делаем его текущим 
     currentSlice = slice;
   }
@@ -154,15 +152,14 @@ const runTickerAnimation = () => {
 
 // функция выбора призового сектора
 const selectPrize = () => {
-  
   let selected = Math.floor(rotation / prizeSlice);
 
   if(selected == 3 || selected == 2){
     selected -= 2;
-  }
-  else if(selected == 1 || selected == 0){
+  }else if(selected == 1 || selected == 0){
     selected += 2;
   }
+
   prizeNodes[selected].classList.add(selectedClass);
 };
 
@@ -182,21 +179,13 @@ spinner.addEventListener("transitionend", () => {
   trigger.disabled = false;
 });
 
+//------------------------------------------------ функции открытия / закрытия popup-ов:
 
-
-function closeByEscape(evt) {
-  if (evt.key === 'Escape') {
-    const openedPopup = document.querySelector('.popup__opened');
-    closePopup(openedPopup);
-  }
-}
 function openPopup(popup) {
   popup.classList.add('popup_opened');
-  document.addEventListener('keydown', closeByEscape);
 }
 function closePopup(popup) {
   popup.classList.remove('popup_opened');
-  document.removeEventListener('keydown', closeByEscape);
 }
 
 popups.forEach((popup) => {
@@ -207,12 +196,13 @@ popups.forEach((popup) => {
     if (evt.target.classList.contains('popup__close-icon')) {
       closePopup(popup);
     }
-  })
+  })  
 })
-
 buttonOpenConsultationPopup.addEventListener('click', function () {
   openPopup(popupOrder);
 });
 buttonOpenOrderPopup.addEventListener('click', function () {
   openPopup(popupConsultation)
 })
+
+setupWheel();

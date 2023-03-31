@@ -1,4 +1,5 @@
 .popup__container_type_order {
+  position: relative;
   width: 536px;
   background: url(../../../../images/popup-order-image.png);
   background-color: rgba(10, 25, 33, 0.9);

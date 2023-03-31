@@ -1,11 +1,20 @@
 .popup__ticker {
   position: absolute;
   top: calc(50% - 12.5px);
-  left: calc(500px + 10px);
+  left: calc(100% - 10px);
   width: 34px;
   height: 25px;
   background-image: url(../../../images/cursor-icon.png);
   background-repeat: no-repeat;
   background-size: contain;
   transform-origin: center right;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__ticker {
+    width: 25px;
+    height: 15px;
+    left: calc(100% - 25px);
+  }
 }
